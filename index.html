@@ -653,6 +653,13 @@ h1, h2, h3, h4 {
 	margin: 0 auto;
 	padding-bottom: 30px;
 }
+@media (min-width: 768px) and (max-width: 1024px) {
+	#container {
+		width: 96%;
+		margin: 0 2%;
+	}
+}
+
 .row {
 	overflow: hidden;
 }
@@ -670,7 +677,8 @@ h1, h2, h3, h4 {
 	text-align: center;
 }
 .hero-shot .tagline {
-	font-size: 2.2em;
+	font-size: 2.5em;
+	line-height: 1.2;
 	margin-bottom: 0;
 }
 .hero-shot .call-to-action {
@@ -682,7 +690,6 @@ h1, h2, h3, h4 {
 	color: #8a8d99;
 }
 .hero-shot .hero-shot-image {
-	width: 800px;
 	margin-left: -100px;
 	margin-top: 6em;
 }
@@ -970,7 +977,7 @@ h1, h2, h3, h4 {
 	<div class="section boxa">
 		<h1 class="hidden">Pinfinity. Creating freely available multitouch medical learning tools.</h1>
 		<p class="logo"><img src="./assets/images/pinfinity.png" height="150px" width="150px" /></p>
-		<h2 class="tagline">Freedom begins with your mind.</h2>
+		<h2 class="tagline">Freedom begins<br />with your mind.</h2>
 		<p class="tagline-expand">
 		Pinfinity creates amazingly insightful digital learning tools and
 		distributes them for free, with no respect for the status quo.
@@ -984,7 +991,7 @@ h1, h2, h3, h4 {
 		</p>
 	</div>
 	<div class="section boxb">
-		<p class="hero-shot-image"><img src="./assets/images/ipad-2.png" width="100%"></p>
+		<p class="hero-shot-image"><img src="./assets/images/ipad-2.png" width="120%"></p>
 	</div>
 </div>
 
@@ -1089,7 +1096,7 @@ h1, h2, h3, h4 {
 	}
 
 	function closeLightbox() {
-		$('#lightbox').hide(400);
+		$('#lightbox').hide();
 	}
 }());
 </script>
