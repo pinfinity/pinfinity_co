@@ -696,8 +696,21 @@ h1, h2, h3, h4 {
 	text-align: center;
 }
 
-.row2 .boxa {
-	overflow: hidden;
+.marketing .video-box {
+	position: relative;
+}
+.marketing .video-box a .play {
+	height: 69px;
+	width: 69px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -34px;
+	margin-left: -34px;
+	background: transparent url(./assets/images/video_play.png) no-repeat scroll 0 0;
+}
+.marketing .video-box a:hover .play {
+	background-position: 0 -69px;
 }
 
 .conversion .header {
@@ -715,6 +728,60 @@ h1, h2, h3, h4 {
 	color: #08c;
 	font-size: 1.5em;
 	margin-bottom: 0;
+}
+
+#lightbox, #lightbox .background {
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+}
+#lightbox.disabled {
+	display: none;
+}
+#lightbox.enabled {
+	display: block;
+}
+#lightbox .background {
+	background-color: #000;
+	z-index: 1;
+	-moz-opacity: 0.8;
+	opacity: .80;
+	filter: alpha(opacity=80);
+}
+#lightbox .foreground {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	background-color: #fff;
+	z-index: 2;
+	box-shadow: 0 0 25px #111;
+	-webkit-box-shadow: 0 0 25px #111;
+	-moz-box-shadow: 0 0 25px #111;
+}
+#lightbox .foreground .close {
+	position: absolute;
+	top: -3em;
+	right: -1em;
+	background-color: #000;
+	-moz-opacity: 0.8;
+	opacity: .80;
+	filter: alpha(opacity=80);
+}
+#lightbox .foreground .close a,
+#lightbox .foreground .close a:hover,
+#lightbox .foreground .close a:visited {
+	display: block;
+	padding: .8em;
+	font-weight: bold;
+	color: #fff;
+}
+#lightbox .foreground.video-player {
+	margin-top: -225px;
+	margin-left: -400px;
+	width: 800px;
+	height: 450px;
 }
 
 
@@ -922,38 +989,36 @@ h1, h2, h3, h4 {
 </div>
 
 <div class="marketing row row2">
-	<div class="section boxa">
-		<img class="video-img" src="./assets/images/pinfinity-freedom-video.jpg" width="100%"
-			alt="Pinfinity Freedom Video" />
+	<div class="section boxa video-box">
+		<a class="lightbox-trigger" href="#freedom-video">
+			<img class="video-img" src="./assets/images/pinfinity-freedom-video.jpg" width="100%"
+				alt="Pinfinity Freedom Video" />
+			<p class="play"></p>
+		</a>
 	</div>
 	<div class="section boxb">
-		<h3 class="header">Neque porro quisquam est qui dolorem.</h3>
+		<h3 class="header">We make free books so you can focus on what matters.</h3>
 		<p class="content">
-		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vestibulum
-		semper mauris, in elementum ante tincidunt et. Morbi quis odio metus.
-		Aenean mauris lectus, accumsan sed consequat gravida, iaculis vitae nisl.
-		Pellentesque porttitor tellus sed nisi semper et porta ante pellentesque.
+		We founded Pinfinity on the principal of paying it forward. Access to information leads to knowledge,
+		and knowledge empowers. That is what drives us forward in everything we do.
 		</p>
 	</div>
 </div>
 
 <div class="marketing row row3">
 	<div class="section boxa">
-		<h3 class="header">Ipsum quia dolor sit amet, consectetur.</h3>
+		<h3 class="header">Learning is more than just reading.</h3>
 		<p class="content">
-		Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
-		inceptos himenaeos. Donec adipiscing sodales lectus. Vestibulum porta
-		mattis nibh, at rhoncus nunc pharetra quis. Pellentesque ac sem magna,
-		mattis feugiat elit. Nam vel mauris non arcu tristique convallis. Etiam
-		mollis nibh nec metus pellentesque pellentesque. Sed feugiat tincidunt
-		felis nec elementum. Proin at nulla ut erat ultrices ultricies at congue
-		enim. Vivamus tellus nisl, suscipit sit amet mollis at, consequat id
-		sapien. 
+		It's easy remember what you need to know when you can put your finger on it. Our multi-touch ebooks make
+	 learning	fun and more memorable.
 		</p>
 	</div>
-	<div class="section boxb">
-		<img class="video-img" src="./assets/images/pinfinity-tutorial-video.jpg" width="100%"
-			alt="Pinfinity Tutorial Video" />
+	<div class="section boxb video-box">
+		<a class="lightbox-trigger" href="#tutorial-video">
+			<img class="video-img" src="./assets/images/pinfinity-tutorial-video.jpg" width="100%"
+				alt="Pinfinity Tutorial Video" />
+			<p class="play"></p>
+		</a>
 	</div>
 </div>
 
@@ -980,6 +1045,54 @@ h1, h2, h3, h4 {
 </div>
 
 </div><!-- #container -->
+
+<div id="lightbox" class="disabled">
+	<div class="background">
+	</div>
+</div>
+
+<script id="embed-freedom-video" type="text/html">
+<div class="foreground video-player">
+	<p class="close"><a href="#">X</a></p>
+	<iframe src="http://player.vimeo.com/video/62565245?title=0&byline=0&portrait=0"
+		width="800" height="450" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+</div>
+</script>
+
+<script id="embed-tutorial-video" type="text/html">
+<div class="foreground video-player">
+	<p class="close"><a href="#">X</a></p>
+	<iframe src="http://player.vimeo.com/video/60518810?title=0&byline=0&portrait=0"
+		width="800" height="450" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+</div>
+</script>
+
+<script src="./assets/scripts/jquery-1.9.1.min.js" type="text/javascript"></script>
+<script>
+(function () {
+	$('a.lightbox-trigger').click(function (ev) {
+		ev.preventDefault();
+		var action = $(this).attr('href').replace(/^#/, '');
+		loadLightbox(action);
+		return false;
+	});
+
+	$('#lightbox').on('click', function (ev) {
+		ev.preventDefault();
+		closeLightbox();
+		return false;
+	});
+
+	function loadLightbox(name) {
+		var html = $('#embed-'+ name).html();
+		$('#lightbox').append(html).show();
+	}
+
+	function closeLightbox() {
+		$('#lightbox').hide(400);
+	}
+}());
+</script>
 
 </body>
 </html>
