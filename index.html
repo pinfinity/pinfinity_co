@@ -644,6 +644,10 @@ a, a:hover, a:active, a:visited {
 h1, h2, h3, h4 {
 	font-weight: 200;
 }
+.video-img {
+	border: 1px solid #ddd;
+}
+
 #container {
 	width: 1040px;
 	margin: 0 auto;
@@ -664,9 +668,6 @@ h1, h2, h3, h4 {
 }
 .hero-shot .boxa {
 	text-align: center;
-}
-.hero-shot .logo {
-	height: 150px;
 }
 .hero-shot .tagline {
 	font-size: 2.2em;
@@ -702,6 +703,7 @@ h1, h2, h3, h4 {
 .conversion .header {
 	font-size: 2em;
 	text-align: center;
+	margin-bottom: 0;
 }
 .conversion .media-box {
 	float: left;
@@ -900,14 +902,14 @@ h1, h2, h3, h4 {
 <div class="hero-shot row row1">
 	<div class="section boxa">
 		<h1 class="hidden">Pinfinity. Creating freely available multitouch medical learning tools.</h1>
-		<p class="logo"><img src="./assets/images/pinfinity.png" height="100%" /></p>
+		<p class="logo"><img src="./assets/images/pinfinity.png" height="150px" width="150px" /></p>
 		<h2 class="tagline">Freedom begins with your mind.</h2>
 		<p class="tagline-expand">
-		Pinfinity creates amazingly insightful digital learning tools and distributes them to you for free,
-		with no respect for the status quo.
+		Pinfinity creates amazingly insightful digital learning tools and
+		distributes them for free, with no respect for the status quo.
 		</p>
 
-		<h3 class="call-to-action">Begin exploring now.</h3>
+		<h3 class="call-to-action">Start exploring now.</h3>
 		<p class="call-to-action-subtext">
 		Download our first book, <em class="title">The Gallbladder</em>, free from iTunes</p>
 		<p class="bookstore-button">
@@ -921,7 +923,8 @@ h1, h2, h3, h4 {
 
 <div class="marketing row row2">
 	<div class="section boxa">
-		<iframe width="560" height="315" src="http://www.youtube.com/embed/zD7hIAwHiGQ" frameborder="0" allowfullscreen></iframe>
+		<img class="video-img" src="./assets/images/pinfinity-freedom-video.jpg" width="100%"
+			alt="Pinfinity Freedom Video" />
 	</div>
 	<div class="section boxb">
 		<h3 class="header">Neque porro quisquam est qui dolorem.</h3>
@@ -949,14 +952,15 @@ h1, h2, h3, h4 {
 		</p>
 	</div>
 	<div class="section boxb">
-		<object width="560" height="315"><param name="movie" value="http://www.youtube.com/v/QYZmse-E33s?hl=en_US&amp;version=3"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/QYZmse-E33s?hl=en_US&amp;version=3" type="application/x-shockwave-flash" width="560" height="315" allowscriptaccess="always" allowfullscreen="true"></embed></object>
+		<img class="video-img" src="./assets/images/pinfinity-tutorial-video.jpg" width="100%"
+			alt="Pinfinity Tutorial Video" />
 	</div>
 </div>
 
 <div class="conversion row row4">
 	<h2 class="header">Keep up to date with our progress.</h2>
 	<div class="media-box mboxa">
-		<a href="www.linkedin.com/pub/jeffrey-l-eakin-m-d/8/79a/338/">
+		<a href="https://www.linkedin.com/pub/jeffrey-l-eakin-m-d/8/79a/338/">
 		<h4 class="header2">Join Dr. Eakin on LinkedIn</h4>
 		<p class="content2">
 		LinkedIn is a great way to connect with influencial people in medicine and education.
