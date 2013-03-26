@@ -1050,33 +1050,29 @@ h1, h2, h3, h4 {
 		</a>
 	</div>
 </div>
-
 </div><!-- #container -->
 
 <div id="lightbox" class="disabled">
-	<div class="background">
+	<div class="background"></div>
+	<div class="foreground video-player">
+		<p class="close"><a href="#">X</a></p>
+
+		<iframe id="freedom-video"
+			src="http://player.vimeo.com/video/62565245?api=1&title=0&byline=0&portrait=0"
+			width="800" height="450" frameborder="0"
+			webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+		<iframe id="tutorial-video"
+			src="http://player.vimeo.com/video/60518810?api=1&title=0&byline=0&portrait=0"
+			width="800" height="450" frameborder="0"
+			webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 	</div>
 </div>
-
-<script id="embed-freedom-video" type="text/html">
-<div class="foreground video-player">
-	<p class="close"><a href="#">X</a></p>
-	<iframe src="http://player.vimeo.com/video/62565245?title=0&byline=0&portrait=0"
-		width="800" height="450" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
-</div>
-</script>
-
-<script id="embed-tutorial-video" type="text/html">
-<div class="foreground video-player">
-	<p class="close"><a href="#">X</a></p>
-	<iframe src="http://player.vimeo.com/video/60518810?title=0&byline=0&portrait=0"
-		width="800" height="450" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
-</div>
-</script>
 
 <script src="./assets/scripts/jquery-1.9.1.min.js" type="text/javascript"></script>
 <script>
 (function () {
+	$lightbox = $('#lightbox');
+	$lightbox.find('iframe').hide();
 	$('a.lightbox-trigger').click(function (ev) {
 		ev.preventDefault();
 		var action = $(this).attr('href').replace(/^#/, '');
@@ -1091,12 +1087,29 @@ h1, h2, h3, h4 {
 	});
 
 	function loadLightbox(name) {
-		var html = $('#embed-'+ name).html();
-		$('#lightbox').append(html).show();
+		$iframe = $('#'+ name).show();
+		$lightbox.show();
+		playVideo($iframe);
 	}
 
 	function closeLightbox() {
-		$('#lightbox').hide();
+		var $iframes = $lightbox.hide().find('iframe').hide();
+		$iframes.each(function (i, el) {
+			pauseVideo($(el));
+		});
+	}
+
+	function playVideo($iframe) {
+		post2vimeo($iframe, 'play');
+	}
+
+	function pauseVideo($iframe) {
+		post2vimeo($iframe, 'pause');
+	}
+
+	function post2vimeo($iframe, action) {
+		var data = JSON.stringify({method: action});
+		$iframe[0].contentWindow.postMessage(data, '*');
 	}
 }());
 </script>
