@@ -19,16 +19,16 @@ _license_key:
 _site_root: /
 
 # Name of your site
-_site_name: Another Awesome Statamic Site
+_site_name: Pinfinity Medical iBooks
 
 # Change the folder name for your content directory
 _content_root: _content
 
 # Used for permalinks
-_site_url: http://statamic.com
+_site_url: http://www.pinfinity.co
 
 # Folder name of your desired theme
-_theme: denali
+_theme: pinfinity
 
 # Entries should include timestamp YYYY-MM-DD-HHII
 _entry_timestamps: false
@@ -73,7 +73,7 @@ _environments:
     - '*.dev'
     - '*.localip'
   live:
-    - '*.com'
+    - '*.co'
 
 # Set to 'true' if you need more robust debug errors
 _debug: true
