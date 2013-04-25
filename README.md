@@ -1,7 +1,8 @@
 Pinfinity dot co
 ================
 
-The source code for [www.pinfinity.co](http://www.pinfinity.co).
+The source code for [www.pinfinity.co](http://www.pinfinity.co), the website
+for Pinfinity books.
 
 Copyright and License
 ---------------------
