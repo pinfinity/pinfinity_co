@@ -116,7 +116,7 @@ li.nav-item {
 	margin: 0 auto;
 }
 #banner {
-	border-bottom: 6px solid #eee;
+	border-bottom: 2px solid #eee;
 }
 #banner .top-nav {
 	background: #e96f00;
@@ -148,6 +148,9 @@ li.nav-item {
 #banner .main-nav .branding {
 	float: left;
 	padding: 20px 0 0 33px;
+}
+#banner .main-nav .branding img {
+	max-height: 100%;
 }
 #banner .main-nav .nav {
 	float: right;
@@ -243,6 +246,9 @@ li.nav-item {
 }
 @media only screen {
 	background-image: url(../img/badge_bookstore-lrg.svg);
+}
+.hero-shot .hero-shot-image {
+	margin: 2em 0 0;
 }
 .hero-shot .hero-shot-image img {
 	max-width: 100%;
@@ -383,12 +389,21 @@ li.nav-item {
 	}
 }
 @media (max-width: 979px) {
+	#banner .main-nav .branding {
+		padding: 20px 0 0 14px;
+	}
+	#banner .main-nav .nav-item {
+		margin-left: 1em;
+	}
 	.hero-shot .section,
 	.row .section {
 		float: none;
 		width: 100%;
 		margin-left: 0;
 		margin-right: 0;
+	}
+	.hero-shot .section.boxb {
+		padding: 1em 0;
 	}
 	.hero-shot .tagline-expand {
 		width: 68%;
@@ -397,6 +412,7 @@ li.nav-item {
 	}
 	.hero-shot .hero-shot-image {
 		text-align: center;
+		margin-top: 0;
 	}
 	.hero-shot .hero-shot-image img {
 		margin: 0;
@@ -412,9 +428,6 @@ li.nav-item {
 	body {
 		font-size: .8em;
 	}
-	#banner {
-		border-bottom-width: 2px;
-	}
 	#banner .top-nav .nav {
 		float: none;
 		margin-left: 1em;
@@ -424,6 +437,8 @@ li.nav-item {
 	}
 	#banner .main-nav .branding {
 		float: none;
+		padding: 20px 0 0 14px;
+		height: 50px;
 	}
 	#banner .main-nav .nav {
 		float: none;
@@ -433,7 +448,7 @@ li.nav-item {
 	}
 	#banner .main-nav .nav-item a {
 		font-size: 1em;
-		padding: 1em;
+		padding: 1em 14px;
 	}
 	.hero-shot .boxa {
 		padding: 0;
