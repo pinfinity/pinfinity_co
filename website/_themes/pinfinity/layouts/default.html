@@ -16,7 +16,10 @@ b._i.push([a,e,d])};b.__SV=1.2}})(document,window.mixpanel||[]);
 var APP = (function () {
 	var APP = {
 		inDevmode: /^([\d]+|localhost)/.test(window.location.hostname),
-		start: new Date().getTime()
+		start: new Date().getTime(),
+		log: function () {
+			if (console && console.log) console.log.apply(console, arguments);
+		}
 	}
 
 	function extendMixpanelProperties(properties) {
@@ -27,7 +30,20 @@ var APP = (function () {
 		return properties;
 	}
 
-	if (!APP.inDevmode) {
+	if (APP.inDevmode) {
+		APP.log('inDevmode == yes');
+		APP.track = function (eventName, properties) {
+			APP.log('Track', eventName, extendMixpanelProperties(properties));
+		}
+		APP.trackLinks = function (selector, eventName, callback) {
+			$(selector).on('click', function () {
+				var properties = callback(this);
+				properties.target_url = $(this).attr('href')
+				APP.track(eventName, properties);
+				return false;
+			});
+		}
+	} else {
 		mixpanel.init("bc8c2b9a06449d481e4397899458b738");
 		mixpanel.register_once({init_pathname: window.location.pathname});
 
@@ -40,20 +56,6 @@ var APP = (function () {
 				return extendMixpanelProperties(callback(el));
 			});
 		};
-	} else {
-		APP.track = function (eventName, properties) {
-			if (console && console.log) {
-				console.log('Track', eventName, extendMixpanelProperties(properties));
-			}
-		}
-		APP.trackLinks = function (selector, eventName, callback) {
-			$(selector).on('click', function () {
-				var properties = callback(this);
-				properties.target_url = $(this).attr('href')
-				APP.track(eventName, properties);
-				return false;
-			});
-		}
 	}
 
 	APP.track('pageview');
@@ -70,6 +72,80 @@ var APP = (function () {
 	<p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
 	<![endif]-->
 	{{ layout_content }}
-</div>
+
+<script src="{{ theme:js src='jquery-1.9.1.min' }}" type="text/javascript"></script>
+<script type="text/javascript">
+	$(function ($) {
+		APP.track('document_ready', {loadtime: new Date().getTime() - APP.start});
+
+		// Track convertions on links.
+		APP.trackLinks('[data-convert-name]', 'conversion', function (el) {
+			return {target: $(el).attr('data-convert-name')};
+		});
+
+		// Start checkpoint tracking.
+		(function () {
+			var checks = [4000, 12000, 30000, 60000, 120000, 180000]
+				, i = 0, len = checks.length
+
+			function createCheckpoint(milisecs) {
+				window.setTimeout(function () {
+					APP.track('checkpoint', {seconds: Math.round(milisecs / 1000)});
+				}, milisecs);
+			}
+
+			for (; i < len; i += 1) {
+				createCheckpoint(checks[i]);
+			}
+		}());
+
+		// Setup video light boxes.
+		(function () {
+			if ($(window).innerWidth() < 840) {
+				$('a.lightbox-trigger').each(function () {
+					var $me = $(this), url = $me.attr('data-video-url');
+					$me.attr('href', url).attr('target', '_blank');
+				});
+			} else {
+				$('a.lightbox-trigger').click(function (ev) {
+					ev.preventDefault();
+					var action = $(this).attr('href').replace(/^#/, '');
+					loadLightbox(action);
+					return false;
+				});
+			}
+
+			$('.lightbox').on('click', function (ev) {
+				ev.preventDefault();
+				closeLightbox($(this));
+				return false;
+			});
+
+			function loadLightbox(name) {
+				var $lightbox = $('#'+ name).show();
+				playVideo($lightbox.find('iframe'));
+			}
+
+			function closeLightbox($lightbox) {
+				var $iframe = $lightbox.hide().find('iframe');
+				pauseVideo($iframe);
+			}
+
+			function playVideo($iframe) {
+				post2vimeo($iframe, 'play');
+			}
+
+			function pauseVideo($iframe) {
+				post2vimeo($iframe, 'pause');
+			}
+
+			function post2vimeo($iframe, action) {
+				var data = JSON.stringify({method: action});
+				$iframe[0].contentWindow.postMessage(data, '*');
+			}
+		 }());
+	});
+</script>
+
 </body>
 </html>
