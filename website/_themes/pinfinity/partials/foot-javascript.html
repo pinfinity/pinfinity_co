@@ -1,0 +1,73 @@
+<script src="{{ theme:js src='jquery-1.9.1.min' }}" type="text/javascript"></script>
+<script type="text/javascript">
+$(function ($) {
+	APP.track('document_ready', {loadtime: new Date().getTime() - APP.start});
+
+	// Track convertions on links.
+	APP.trackLinks('[data-convert-name]', 'conversion', function (el) {
+		return {target: $(el).attr('data-convert-name')};
+	});
+
+	// Start checkpoint tracking.
+	(function () {
+		var checks = [4000, 12000, 30000, 60000, 120000, 180000]
+			, i = 0, len = checks.length
+
+		function createCheckpoint(milisecs) {
+			window.setTimeout(function () {
+				APP.track('checkpoint', {seconds: Math.round(milisecs / 1000)});
+			}, milisecs);
+		}
+
+		for (; i < len; i += 1) {
+			createCheckpoint(checks[i]);
+		}
+	}());
+
+	// Setup video light boxes.
+	(function () {
+		if ($(window).innerWidth() < 840) {
+			$('a.lightbox-trigger').each(function () {
+				var $me = $(this), url = $me.attr('data-video-url');
+				$me.attr('href', url).attr('target', '_blank');
+			});
+		} else {
+			$('a.lightbox-trigger').click(function (ev) {
+				ev.preventDefault();
+				var action = $(this).attr('href').replace(/^#/, '');
+				loadLightbox(action);
+				return false;
+			});
+		}
+
+		$('.lightbox').on('click', function (ev) {
+			ev.preventDefault();
+			closeLightbox($(this));
+			return false;
+		});
+
+		function loadLightbox(name) {
+			var $lightbox = $('#'+ name).show();
+			playVideo($lightbox.find('iframe'));
+		}
+
+		function closeLightbox($lightbox) {
+			var $iframe = $lightbox.hide().find('iframe');
+			pauseVideo($iframe);
+		}
+
+		function playVideo($iframe) {
+			post2vimeo($iframe, 'play');
+		}
+
+		function pauseVideo($iframe) {
+			post2vimeo($iframe, 'pause');
+		}
+
+		function post2vimeo($iframe, action) {
+			var data = JSON.stringify({method: action});
+			$iframe[0].contentWindow.postMessage(data, '*');
+		}
+	 }());
+});
+</script>
