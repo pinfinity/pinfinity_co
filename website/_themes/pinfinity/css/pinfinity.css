@@ -1,5 +1,5 @@
 html {
-	font-size: 87.5%;
+	font-size: 100%;
 	-webkit-text-size-adjust: 100%;
 	-ms-text-size-adjust: 100%;
 	color: #333;
@@ -111,7 +111,8 @@ ul.nav {
 li.nav-item {
 	float: left;
 }
-#banner, #container {
+#banner, #container, .hero-shot, .blog-header {
+
 	width: 1100px;
 	margin: 0 auto;
 }
@@ -196,10 +197,6 @@ li.nav-item {
 }
 .row .boxb {
 	margin-left: 4%;
-}
-.hero-shot {
-	width: 1100px;
-	margin: 0 auto;
 }
 .hero-shot .section {
 	float: left;
@@ -370,6 +367,34 @@ li.nav-item {
 .row.connect .contact-us a {
 	color: #e96f00;
 }
+.blog-header .header {
+	margin-left: 3%;
+	font-size: 2.2em;
+	color: #777;
+	line-height: 1.2;
+}
+.blog-header .header>.sub {
+	font-size: 0.5em;
+	color: #98ca3c;
+}
+.blog-post {
+	margin: 0 3%;
+	padding: 1em 0;
+	max-width: 700px;
+}
+.blog-post .entry-title {
+	margin: 0;
+}
+.blog-post .entry-title>a,
+.blog-post .entry-title>a:hover,
+.blog-post .entry-title>a:active,
+.blog-post .entry-title>a:visited {
+	color: #e96f00;
+}
+.blog-post .entry-meta {
+	font-size: 1.2em;
+	color: #777;
+}
 #footer {
 	background: #2b2b2b;
 	padding: 1em;
@@ -383,7 +408,7 @@ li.nav-item {
 	font-size: 0.9em;
 }
 @media (max-width: 1130px) {
-	#banner, #container, .hero-shot {
+	#banner, #container, .hero-shot, .blog-header {
 		width: 96%;
 		margin: 0 2%;
 	}
@@ -394,6 +419,7 @@ li.nav-item {
 	}
 	#banner .main-nav .nav-item {
 		margin-left: 1em;
+		font-size: 0.9em;
 	}
 	.hero-shot .section,
 	.row .section {
@@ -423,12 +449,19 @@ li.nav-item {
 	.row.product .video-box {
 		padding-top: 2em;
 	}
+	.blog-header .header {
+		font-size: 1.5em;
+	}
+	.blog-header .header>.sub {
+		font-size: 0.8em;
+	}
 }
 @media (max-width: 600px) {
 	body {
 		font-size: .8em;
 	}
 	#banner .top-nav .nav {
+		font-size: .9em;
 		float: none;
 		margin-left: 1em;
 	}

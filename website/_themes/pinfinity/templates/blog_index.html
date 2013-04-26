@@ -1,14 +1,38 @@
-<div id="blog-hero-shot">
-	<p class="logo"><img src="{{ theme:img src='pinfinity.png'}}" /></p>
-	<p class="tagline">We blog about iBooks, medicine, and learning.</p>
+<div class="blog-header">
+	<h2 class="header light">
+		Multi-touch books, medicine, and education.
+		<span class="sub">It's what we do.</span>
+	</h2>
 </div>
 
 <div id="background">
 	<div id="container">
 
-	<div class="content-header">
-		<h1 class="light header">All digital learning, all the time.</h1>
+	{{ entries:listing folder="blog" limit="2" }}
+	<div class="blog-post hentry content" itemscope itemtype="http://schema.org/BlogPosting">
+		<div class="entry-header">
+			<h1 class="entry-title header light" itemprop="name">
+				<a href="http://www.pinfinity.co{{ url }}"
+					rel="bookmark" itemprop="url">{{ title }}</a>
+			</h1>
+			<div class="entry-meta light">
+					<span class="sep">Posted on </span>
+					<time class="published" itemprop="datePublished"
+						datetime="{{ datestamp format="Y-M-D" }}" pubdate>{{ date }}</time>
+					</a>
+					<span class="by-author" itemprop="author" itemscope itemtype="http://schema.org/Person">
+						<span class="sep"> by </span>
+						<span class="author vcard">
+							<a class="url fn n" itemprop="url name"
+								href="https://plus.google.com/100601805957701195662?rel=author"
+								title="Kris Walker's Profile" rel="author">Kris Walker</a>
+						</span>
+					</span>
+			</div>
+		</div>
+		{{ content }}
 	</div>
+	{{ /entries:listing }}
 
 	{{ theme:partial src="social-footer"}}
 

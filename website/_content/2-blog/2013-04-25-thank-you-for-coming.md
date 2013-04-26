@@ -1,5 +1,5 @@
 ---
-title: Thanks for Coming
+title: Thanks for Being One of the First
 ---
 
 To all the medical students out there, Pinfinity is dedicated to you. We are
@@ -28,4 +28,8 @@ material in the digital age, and we will do it while asking nothing in return
 from our readers. Medicine is simply too important for you to be forced to
 continue lining the pockets of big, stale, publishing houses.
 
-Maybe we're the crazy ones, but then, maybe that's a good thing.
+Maybe we're crazy, but then, maybe that's a good thing.
+
+<iframe width="640" height="360" src="http://www.youtube.com/embed/O0S5SuAwIXs?rel=0" frameborder="0" allowfullscreen></iframe>
+
+We're happy you've joined us on our journey.

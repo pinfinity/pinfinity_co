@@ -1,5 +1,4 @@
 ---
-title: Home
-_fieldset: page
+title: Pinfinity Medical iBooks
 _template: home
 ---
