@@ -14,9 +14,58 @@
 	<!--[if lt IE 8]>
 	<p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
 	<![endif]-->
+
+	<div id="banner">
+		<div class="top-nav">
+			<ul class="nav">
+				<li class="nav-item">
+					<a href="mailto:connect@pinfinity.co">
+						<img src="{{ theme:img src='icons/email.png'}}" width="24px" height="24px" />
+						connect@pinfinity.co
+					</a>
+				</li>
+				<li class="nav-item">
+					<a href="http://www.linkedin.com/company/pinfinity-consulting-llc-">
+						<img src="{{ theme:img src='icons/linkedin.png'}}" width="24px" height="24px" />
+					</a>
+				</li>
+				<li class="nav-item">
+					<a href="https://twitter.com/PinfinityBooks">
+						<img src="{{ theme:img src='icons/twitter.png'}}" width="24px" height="24px" />
+					</a>
+				</li>
+				<li class="nav-item">
+					<a href="https://www.facebook.com/pages/Pinfinity-Consulting-LLC/187886501334932">
+						<img src="{{ theme:img src='icons/facebook.png'}}" width="24px" height="24px" />
+					</a>
+				</li>
+			</ul>
+		</div>
+		<div class="main-nav">
+			<div class="branding">
+				<a href="/"><img src="{{ theme:img src='pinfinity-horizontal.png'}}" /></a>
+			</div>
+			<ul class="nav">
+				<li class="nav-item first">
+					<a href="/about">
+						<strong>About Us</strong><br /><span class="sub">Our team</span>
+					</a>
+				</li>
+				<li class="nav-item">
+					<a href="/books/">
+						<strong>Our Books</strong><br /><span class="sub">Created for you</span>
+					</a>
+				</li>
+				<li class="nav-item">
+					<a href="/blog/">
+						<strong>The Blog</strong><br /><span class="sub">Our knowledge</span>
+					</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+
 	{{ layout_content }}
-
 	{{ theme:partial src='foot-javascript' }}
-
 </body>
 </html>
