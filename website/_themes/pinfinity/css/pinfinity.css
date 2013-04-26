@@ -45,63 +45,6 @@ img {
 img.video-img {
 	border: 1px solid #eee;
 }
-#background {
-	clear: both;
-	padding: 0 0 1em 0;
-}
-.lightbox.disabled {
-	display: none;
-}
-.lightbox, .lightbox .background {
-	position: fixed;
-	height: 100%;
-	width: 100%;
-	top: 0;
-	left: 0;
-}
-.lightbox.enabled {
-	display: block;
-}
-.lightbox .background {
-	background-color: #000;
-	z-index: 1;
-	-moz-opacity: 0.8;
-	opacity: .80;
-	filter: alpha(opacity=80);
-}
-.lightbox .foreground {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	background-color: #fff;
-	z-index: 2;
-	box-shadow: 0 0 25px #111;
-	-webkit-box-shadow: 0 0 25px #111;
-	-moz-box-shadow: 0 0 25px #111;
-}
-.lightbox .foreground .close {
-	position: absolute;
-	top: -3em;
-	right: -1em;
-	background-color: #000;
-	-moz-opacity: 0.8;
-	opacity: .80;
-	filter: alpha(opacity=80);
-}
-.lightbox .foreground .close a,
-.lightbox .foreground .close a:hover,
-.lightbox .foreground .close a:visited {
-	display: block;
-	padding: .8em;
-	font-weight: bold;
-	color: #fff;
-}
-.lightbox .foreground.video-player {
-	margin-top: -225px;
-	margin-left: -400px;
-	width: 800px;
-	height: 450px;
-}
 ul.nav {
 	margin: 0;
 	padding: 0;
@@ -109,6 +52,12 @@ ul.nav {
 	overflow: hidden;
 }
 li.nav-item {
+	float: left;
+}
+.media-box {
+	overflow: hidden;
+}
+.media-box .img {
 	float: left;
 }
 #banner, #container, .hero-shot, .blog-header {
@@ -179,6 +128,10 @@ li.nav-item {
 }
 #banner .main-nav .nav-item a:hover {
 	background-color: #eee;
+}
+#background {
+	clear: both;
+	padding: 0 0 1em 0;
 }
 #container {
 	box-shadow: 0 0 15px rgba(0,0,0,0.13);
@@ -262,6 +215,28 @@ li.nav-item {
 	background: #98ca3c url(../img/pinfinity-mark-white-44.png) no-repeat;
 	padding-left: 64px;
 	min-height: 44px;
+}
+#content {
+	padding: 1em 3% 2em;
+}
+#content .team {
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+#content .team .media-box {
+	margin-bottom: 2em;
+}
+#content .team .media-box>.img {
+	margin-top: 2em;
+}
+#content .team .media-box>.text {
+	margin-left: 200px;
+}
+#content .team .media-box>.text>.header {
+	font-size: 2em;
+	margin: 0 0 0.3em;
+	color: #e96f00;
 }
 .row.passion,
 .row.product {
@@ -411,6 +386,59 @@ li.nav-item {
 }
 #footer p.copyright {
 	font-size: 0.9em;
+}
+.lightbox.disabled {
+	display: none;
+}
+.lightbox, .lightbox .background {
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+}
+.lightbox.enabled {
+	display: block;
+}
+.lightbox .background {
+	background-color: #000;
+	z-index: 1;
+	-moz-opacity: 0.8;
+	opacity: .80;
+	filter: alpha(opacity=80);
+}
+.lightbox .foreground {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	background-color: #fff;
+	z-index: 2;
+	box-shadow: 0 0 25px #111;
+	-webkit-box-shadow: 0 0 25px #111;
+	-moz-box-shadow: 0 0 25px #111;
+}
+.lightbox .foreground .close {
+	position: absolute;
+	top: -3em;
+	right: -1em;
+	background-color: #000;
+	-moz-opacity: 0.8;
+	opacity: .80;
+	filter: alpha(opacity=80);
+}
+.lightbox .foreground .close a,
+.lightbox .foreground .close a:hover,
+.lightbox .foreground .close a:visited {
+	display: block;
+	padding: .8em;
+	font-weight: bold;
+	color: #fff;
+}
+.lightbox .foreground.video-player {
+	margin-top: -225px;
+	margin-left: -400px;
+	width: 800px;
+	height: 450px;
 }
 @media (max-width: 1130px) {
 	#banner, #container, .hero-shot, .blog-header {
