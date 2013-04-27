@@ -2,13 +2,12 @@
 title: Thanks for Being One of the First
 ---
 
-__To the students:__ Pinfinity is dedicated to you. We are driven by a desire to
-spread knowledge. Digital publishing has changed the way information should be
-presented in a learning environment. There is no other field where the change
-to digital content is more important than in medicine.  Our hats are off to
-you, and the path you have chosen. We hope our books will eventually allow you
-to break free of the textbook publishing machine and chart your own path
-through your career.
+__To the students:__ Pinfinity is dedicated to you. Digital publishing has
+dramatically changed the way information should be presented in a learning
+environment, and there is no other field where the change to digital content is
+more important than in medicine.  Our hats are off to you, and the path you
+have chosen. We hope our books will eventually allow you to break free of the
+textbook publishing machine and chart your own path through your career.
 
 __To professionals:__ We hope you find Pinfinity books to be insightful enough,
 that between your long hours caring for your patients, you'll look forward to a

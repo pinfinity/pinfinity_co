@@ -5,39 +5,35 @@
 	</h2>
 </div>
 
-<div id="background">
-	<div id="container">
-
-	{{ entries:listing folder="blog" limit="2" }}
-	<div class="blog-post hentry content" itemscope itemtype="http://schema.org/BlogPosting">
-		<div class="entry-header">
-			<h1 class="entry-title header light" itemprop="name">
-				<a href="http://www.pinfinity.co{{ url }}"
-					rel="bookmark" itemprop="url">{{ title }}</a>
-			</h1>
-			<div class="entry-meta light">
-					<span class="sep">Posted on </span>
-					<time class="published" itemprop="datePublished"
-						datetime="{{ datestamp format="Y-M-D" }}" pubdate>{{ date }}</time>
-					</a>
-					<span class="by-author" itemprop="author" itemscope itemtype="http://schema.org/Person">
-						<span class="sep"> by </span>
-						<span class="author vcard">
-							<a class="url fn n" itemprop="url name"
-								href="https://plus.google.com/100601805957701195662?rel=author"
-								title="Kris Walker's Profile" rel="author">Kris Walker</a>
-						</span>
+{{ entries:listing folder="blog" limit="2" }}
+<div class="blog-post hentry content" itemscope itemtype="http://schema.org/BlogPosting">
+	<div class="entry-header">
+		<h1 class="entry-title header light" itemprop="name">
+			<a href="http://www.pinfinity.co{{ url }}"
+				rel="bookmark" itemprop="url">{{ title }}</a>
+		</h1>
+		<div class="entry-meta light">
+				<span class="sep">Posted on </span>
+				<time class="published" itemprop="datePublished"
+					datetime="{{ datestamp format="Y-M-D" }}" pubdate>{{ date }}</time>
+				</a>
+				<span class="by-author" itemprop="author" itemscope itemtype="http://schema.org/Person">
+					<span class="sep"> by </span>
+					<span class="author vcard">
+						<a class="url fn n" itemprop="url name"
+							href="https://plus.google.com/100601805957701195662?rel=author"
+							title="Kris Walker's Profile" rel="author">Kris Walker</a>
 					</span>
-			</div>
-		</div>
-		{{ content }}
-		<div class="post-footer">
-			<p>And, please contact us at <a href="mailto:connect@pinfinity.co">connect@pinfinity.co</a>. We'd love to hear from you.</p>
+				</span>
 		</div>
 	</div>
-	{{ /entries:listing }}
+	{{ content }}
+	<div class="post-footer">
+		<p>Don't forget to stay on top of fast moving developments in multi-touch
+		books for education. A great way to do that is on social media, and you
+		should follow along with us below.</p>
+	</div>
+</div>
+{{ /entries:listing }}
 
-	{{ theme:partial src="social-footer"}}
-
-	</div><!-- #container -->
-</div><!-- #background -->
+{{ theme:partial src="social-footer"}}

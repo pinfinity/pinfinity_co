@@ -25,6 +25,7 @@ a, a:hover, a:active, a:visited {
 img {
 	border: 0;
 	vertical-align: middle;
+	max-width: 100%;
 }
 .chromeframe {
 	margin: 0.2em 0;
@@ -41,6 +42,20 @@ img {
 .hidden {
 		display: none !important;
 		visibility: hidden;
+}
+.button,
+a.button {
+	display: inline-block;
+	padding: 0.8em 1.3em;
+	font-weight: bold;
+	background: #e96f00;
+	color: #fff;
+}
+a:hover .button,
+a:hover.button {
+	-moz-opacity: 0.7;
+	opacity: .70;
+	filter: alpha(opacity=70);
 }
 img.video-img {
 	border: 1px solid #eee;
@@ -60,10 +75,12 @@ li.nav-item {
 .media-box .img {
 	float: left;
 }
-#banner, #container, .hero-shot, .blog-header {
-
+#container {
 	width: 1100px;
-	margin: 0 auto;
+	margin: 0 auto 3%;
+	box-shadow: 0 0 15px rgba(0,0,0,0.13);
+	-moz-box-shadow: 0 0 15px rgba(0,0,0,0.13);
+	-webkit-box-shadow: 0 0 15px rgba(0,0,0,0.13);
 }
 #banner {
 	border-bottom: 2px solid #eee;
@@ -94,15 +111,17 @@ li.nav-item {
 #banner .main-nav {
 	clear: both;
 	overflow: hidden;
+	margin: 0 3%;
 }
 #banner .main-nav .branding {
 	float: left;
-	padding: 20px 0 0 33px;
+	margin-top: 20px;
 }
 #banner .main-nav .branding img {
 	max-height: 100%;
 }
 #banner .main-nav .nav {
+	overflow: hidden;
 	float: right;
 }
 #banner .main-nav .nav-item {
@@ -129,16 +148,6 @@ li.nav-item {
 #banner .main-nav .nav-item a:hover {
 	background-color: #eee;
 }
-#background {
-	clear: both;
-	padding: 0 0 1em 0;
-}
-#container {
-	box-shadow: 0 0 15px rgba(0,0,0,0.13);
-	-moz-box-shadow: 0 0 15px rgba(0,0,0,0.13);
-	-webkit-box-shadow: 0 0 15px rgba(0,0,0,0.13);
-	border: 1px solid #ccc;
-}
 .row {
 	overflow: hidden;
 	width: 94%;
@@ -151,10 +160,14 @@ li.nav-item {
 .row .boxb {
 	margin-left: 4%;
 }
+.hero-shot {
+	overflow: hidden;
+	padding: 2em 0 3em;
+}
 .hero-shot .section {
 	float: left;
-	width: 50%;
-	padding: 3em 0;
+	width: 47%;
+	padding-left: 3%;
 }
 .hero-shot .boxa {
 	text-align: center;
@@ -198,12 +211,10 @@ li.nav-item {
 	background-image: url(../img/badge_bookstore-lrg.svg);
 }
 .hero-shot .hero-shot-image {
-	margin: 2em 0 0;
-}
-.hero-shot .hero-shot-image img {
-	max-width: 100%;
+	margin: 4em 0 0 -30px;
 }
 #container > .content-header {
+	clear: both;
 	background-color: #98ca3c;
 	color: #fff;
 	padding: 1em 0;
@@ -217,9 +228,9 @@ li.nav-item {
 	min-height: 44px;
 }
 #content {
-	padding: 1em 3% 2em;
+	padding: 3%;
 }
-#content .team {
+#content ul.team {
 	padding: 0;
 	margin: 0;
 	list-style-type: none;
@@ -238,12 +249,38 @@ li.nav-item {
 	margin: 0 0 0.3em;
 	color: #e96f00;
 }
+#content .products {
+	overflow: hidden;
+}
+#content .products .col-a {
+	float: left;
+	width: 48.5%
+}
+#content .products .col-b {
+	width: 48.5%;
+	margin-left: 53%;
+}
+#content .products .book {
+	text-align: center;
+}
+#content .products .book .img>img {
+	border: 1px solid #ddd;
+	box-shadow: 0 0 15px rgba(0,0,0,0.28);
+	-moz-box-shadow: 0 0 15px rgba(0,0,0,0.28);
+	-webkit-box-shadow: 0 0 15px rgba(0,0,0,0.28);
+}
+#content .products .book a {
+	display: block;
+	color: #fff;
+}
+#content .products .book a:hover {
+	-moz-opacity: 0.7;
+	opacity: .70;
+	filter: alpha(opacity=70);
+}
 .row.passion,
 .row.product {
 	padding: 3em 0 2em;
-}
-.row.product {
-	border-top: 2px solid #ddd;
 }
 .row.passion .section .header,
 .row.product .section .header {
@@ -270,9 +307,6 @@ li.nav-item {
 }
 .video-box a:hover .play {
 	background-position: 0 -69px;
-}
-.video-box img.video-img {
-	max-width: 100%;
 }
 .row.partners,
 .row.connect {
@@ -344,6 +378,7 @@ li.nav-item {
 }
 .blog-header .header {
 	margin-left: 3%;
+	margin-right: 3%;
 	font-size: 2.2em;
 	color: #777;
 	line-height: 1.2;
@@ -441,15 +476,13 @@ li.nav-item {
 	height: 450px;
 }
 @media (max-width: 1130px) {
-	#banner, #container, .hero-shot, .blog-header {
+	#container {
 		width: 96%;
-		margin: 0 2%;
+		margin-left: 2%;
+		margin-right: 2%;
 	}
 }
 @media (max-width: 979px) {
-	#banner .main-nav .branding {
-		padding: 20px 0 0 14px;
-	}
 	#banner .main-nav .nav-item {
 		margin-left: 1em;
 		font-size: 0.9em;
@@ -471,13 +504,13 @@ li.nav-item {
 	}
 	.hero-shot .hero-shot-image {
 		text-align: center;
-		margin-top: 0;
+		margin-top: 20px;
 	}
 	.hero-shot .hero-shot-image img {
 		margin: 0;
 	}
 	.row.product {
-		padding-top: 2em;
+		padding-top: 0; 
 	}
 	.row.product .video-box {
 		padding-top: 2em;
@@ -487,6 +520,9 @@ li.nav-item {
 	}
 	.blog-header .header>.sub {
 		font-size: 0.8em;
+	}
+	#content .products .book .img>img {
+		width: 250px;
 	}
 }
 @media (max-width: 600px) {
@@ -503,10 +539,11 @@ li.nav-item {
 	}
 	#banner .main-nav .branding {
 		float: none;
-		padding: 20px 0 0 14px;
 		height: 50px;
 	}
 	#banner .main-nav .nav {
+		overflow: hidden;
+		clear: both;
 		float: none;
 	}
 	#banner .main-nav .nav-item {
@@ -523,10 +560,6 @@ li.nav-item {
 		width: 94%;
 		margin-left: auto;
 		margin-right: auto;
-	}
-	#background {
-		background-image: none;
-		padding: 0;
 	}
 	#container {
 		width: 100%;
@@ -545,6 +578,24 @@ li.nav-item {
 	}
 	.row.connect .media-box.boxa {
 		margin-top: 1em;
+	}
+	#content .team .media-box>.img {
+		margin: 0 1em 1em;
+		width: 100px;
+	}
+	#content .team .media-box>.text {
+		margin-left: 0;
+	}
+	#content .products .col-a {
+		float: none;
+		width: 100%;
+	}
+	#content .products .col-b {
+		width: 100%;
+		margin-left: 0;
+	}
+	#content .products .book {
+		margin-top: 4em;
 	}
 }
 
