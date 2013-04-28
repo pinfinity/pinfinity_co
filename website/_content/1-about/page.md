@@ -1,5 +1,6 @@
 ---
 title: The Pinfinity Team
+description: "Work isn't really work when you have a great team, and that's how we roll."
 page_intro: "Work isn't really work when you have a great team.<br /><span class='sub'>And that's how we roll.</span>"
 _template: page
 ---

@@ -384,7 +384,7 @@ li.nav-item {
 	line-height: 1.2;
 }
 .blog-header .header>.sub {
-	font-size: 0.5em;
+	font-size: 0.8em;
 	color: #98ca3c;
 }
 .blog-post {
@@ -405,10 +405,14 @@ li.nav-item {
 	font-size: 1.2em;
 	color: #777;
 }
+#content .post-footer,
 .blog-post .post-footer {
 	font-size: 1.2em;
 	font-style: italic;
 	color: #777;
+	margin-top: 2em;
+	padding: 0.2em 1em;
+	border-left: 4px solid #e96f00;
 }
 #footer {
 	background: #2b2b2b;
