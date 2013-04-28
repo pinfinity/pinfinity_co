@@ -211,7 +211,8 @@ li.nav-item {
 	background-image: url(../img/badge_bookstore-lrg.svg);
 }
 .hero-shot .hero-shot-image {
-	margin: 4em 0 0 -30px;
+	width: 500px;
+	margin: 4em 0 0;
 }
 #container > .content-header {
 	clear: both;
@@ -277,6 +278,20 @@ li.nav-item {
 	-moz-opacity: 0.7;
 	opacity: .70;
 	filter: alpha(opacity=70);
+}
+.book.hero-shot .boxa {
+	margin-top: 5em;
+}
+.book.hero-shot .hero-shot-image {
+	margin-top: 2em;
+}
+.hero-shot .book-title.header {
+	font-size: 3em;
+	margin: 0;
+}
+.hero-shot .book-author.header {
+	font-size: 1.5em;
+	margin: 0 0 1em;
 }
 .row.passion,
 .row.product {
@@ -485,21 +500,26 @@ li.nav-item {
 		margin-left: 2%;
 		margin-right: 2%;
 	}
+	.hero-shot .section.boxa {
+		width: 43%;
+		font-size: 0.85em;
+	}
+	.hero-shot .section.boxb {
+		width: 51%;
+	}
 }
 @media (max-width: 979px) {
 	#banner .main-nav .nav-item {
 		margin-left: 1em;
 		font-size: 0.9em;
 	}
-	.hero-shot .section,
-	.row .section {
-		float: none;
+	.hero-shot .section.boxa,
+	.hero-shot .section.boxb {
 		width: 100%;
-		margin-left: 0;
-		margin-right: 0;
+		font-size: 1em;
 	}
 	.hero-shot .section.boxb {
-		padding: 1em 0;
+		padding: 0;
 	}
 	.hero-shot .tagline-expand {
 		width: 68%;
@@ -508,10 +528,14 @@ li.nav-item {
 	}
 	.hero-shot .hero-shot-image {
 		text-align: center;
-		margin-top: 20px;
+		width: 100%;
 	}
-	.hero-shot .hero-shot-image img {
-		margin: 0;
+	.row .section {
+		float: none;
+		width: 100%;
+	}
+	.row .section.boxb {
+		margin-left: 0;
 	}
 	.row.product {
 		padding-top: 0; 

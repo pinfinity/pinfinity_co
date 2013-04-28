@@ -1,0 +1,27 @@
+<div class="book hero-shot">
+	<div class="section boxa">
+		<h1 class="book-title header">{{ book_title }}</h1>
+		<h2 class="book-author header light">By {{ book_author }}</h1>
+		<p class="call-to-action-subtext">
+		Download <em class="title">{{ book_title }}</em>, free from the iBookstore.</p>
+		<p class="bookstore-button">
+		<a class="btn"
+			data-convert-name="{{ book_title }} hero shot itunes"
+			href="{{ itunes_url }}"
+			target="itunes_store"></a>
+		</p>
+	</div>
+	<div class="section boxb">
+		<p class="hero-shot-image"><img src="/assets/img/{{ book_ipad_image }}" alt="{{ book_title }} iBook for iPad"></p>
+	</div>
+</div>
+
+<div id="content">
+	{{ content }}
+
+	<div class="post-footer">
+		<p>Somehow you need stay on top of all the fast moving developments in
+		multi-touch books for education. A great way to do that is with Pinfinity
+		and social media. Follow along with us below.</p>
+	</div>
+</div>
