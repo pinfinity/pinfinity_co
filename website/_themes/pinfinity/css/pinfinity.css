@@ -279,19 +279,41 @@ li.nav-item {
 	opacity: .70;
 	filter: alpha(opacity=70);
 }
+.book.hero-shot {
+	padding-bottom: 1em;
+}
 .book.hero-shot .boxa {
-	margin-top: 5em;
+	margin-top: 1em;
 }
 .book.hero-shot .hero-shot-image {
 	margin-top: 2em;
 }
-.hero-shot .book-title.header {
+.book.hero-shot .book-title.header {
 	font-size: 3em;
 	margin: 0;
 }
-.hero-shot .book-author.header {
+.book.hero-shot .book-author.header {
 	font-size: 1.5em;
 	margin: 0 0 1em;
+}
+.book.hero-shot .book-description {
+	color: #777;
+}
+#content.book .info {
+	overflow: hidden;
+}
+#content.book .info>.item {
+	width: 47%;
+}
+#content.book .info>.item img {
+	border: 1px solid #aaa;
+}
+#content.book .info>.boxa {
+	float: left;
+}
+#content.book .info>.boxb {
+	float: left;
+	margin-left: 6%;
 }
 .row.passion,
 .row.product {
@@ -584,10 +606,14 @@ li.nav-item {
 	.hero-shot .boxa {
 		padding: 0;
 	}
-	.hero-shot .tagline-expand {
+	.hero-shot .tagline-expand,
+	.book.hero-shot .book-description {
 		width: 94%;
 		margin-left: auto;
 		margin-right: auto;
+	}
+	.book.hero-shot {
+		font-size: 0.9em;
 	}
 	#container {
 		width: 100%;

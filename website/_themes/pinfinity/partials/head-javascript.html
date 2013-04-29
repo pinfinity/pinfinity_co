@@ -30,6 +30,7 @@ var APP = (function () {
 				var properties = callback(this);
 				properties.target_url = $(this).attr('href')
 				APP.track(eventName, properties);
+				APP.log('goto', properties.target_url);
 				return false;
 			});
 		}
