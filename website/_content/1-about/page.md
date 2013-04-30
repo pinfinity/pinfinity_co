@@ -2,6 +2,7 @@
 title: The Pinfinity Team
 description: "Work isn't really work when you have a great team, and that's how we roll."
 page_intro: "Work isn't really work when you have a great team.<br /><span class='sub'>And that's how we roll.</span>"
+page_id: "about-us"
 _template: page
 ---
 
@@ -54,7 +55,7 @@ day. If we could afford an insurance policy on him, it would be a big one.</p>
 	</li>
 	<li class="media-box">
 		<p class="img">
-			<img src="/assets/img/kris-walker.png" alt="Kris Walker: Chief software engineer."/>
+			<img src="/assets/img/kris-walker.png" alt="Kris Walker: Chief software engineer." />
 		</p>
 		<div class="text">
 			<h3 class="header light">Kris Walker</h3>

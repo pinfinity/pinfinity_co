@@ -1,6 +1,11 @@
-<div id="book">
-	<div class="hero-shot">
+<div id="book" class="page">
+	<div class="hero-shot row">
 		<div class="section boxa">
+			<p class="hero-shot-image">
+				<img src="/assets/img/{{ book_ipad_image }}" alt="{{ book_title }} iBook for iPad" />
+			</p>
+		</div>
+		<div class="section boxb">
 			<h1 class="book-title header">{{ book_title }}</h1>
 			<h2 class="book-author header light">By {{ book_author }}</h1>
 			<p class="call-to-action-subtext">
@@ -11,16 +16,10 @@
 				href="{{ itunes_url }}"
 				target="itunes_store"></a>
 			</p>
-			<p class="book-description">{{ book_description }}</p>
-		</div>
-		<div class="section boxb">
-			<p class="hero-shot-image">
-				<img src="/assets/img/{{ book_ipad_image }}" alt="{{ book_title }} iBook for iPad" />
-			</p>
 		</div>
 	</div>
 
-	<div id="content">
+	<div id="content" class="row">
 		{{ content }}
 	</div>
 </div>

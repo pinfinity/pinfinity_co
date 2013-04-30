@@ -1,6 +1,7 @@
 ---
 title: Pinfinity iBooks for Medical Education
 page_intro: "Bring medical education to new heights with multi-touch books.<br /><span class='sub'>You have to admit, these books are cool in a geeky sort of way.</span>"
+page_id: "books"
 _template: page
 ---
 
