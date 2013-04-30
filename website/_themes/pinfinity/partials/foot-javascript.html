@@ -8,6 +8,31 @@ $(function ($) {
 		return {target: $(el).attr('data-convert-name')};
 	});
 
+	(function () {
+	  var $videos = $('iframe[src^="http://www.youtube.com"]')
+			, $container = $('.blog-post')
+
+		$videos.each(function () {
+			$(this).data('aspectRatio', this.height / this.width)
+				.removeAttr('height')
+				.removeAttr('width')
+		});
+
+		function resizeVideos() {
+			var newWidth = $container.width()
+
+			$videos.each(function () {
+				var $me = $(this)
+					, aspect = $me.data('aspectRatio')
+
+				$me.width(newWidth).height(newWidth * aspect);
+			});
+		}
+
+		$(window).resize(resizeVideos);
+		resizeVideos();
+	}());
+
 	// Start checkpoint tracking.
 	(function () {
 		var checks = [4000, 12000, 30000, 60000, 120000, 180000]
