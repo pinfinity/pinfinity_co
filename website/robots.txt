@@ -1,2 +1,3 @@
+Sitemap: http://www.pinfinity.co/sitemap.xml
 User-agent: *
 Allow: /
