@@ -1,0 +1,28 @@
+<div id="blog-post" class="page row">
+	{{ theme:partial src='page-header' }}
+
+	<div class="blog-post hentry content" itemscope itemtype="http://schema.org/BlogPosting">
+		<div class="entry-header">
+			<h1 class="entry-title header light" itemprop="name">
+				<a href="{{ url }}"
+					rel="bookmark" itemprop="url">{{ title }}</a>
+			</h1>
+			<div class="entry-meta light">
+					<span class="sep">Posted on </span>
+					<time class="published" itemprop="datePublished"
+						datetime="{{ datestamp format="Y-M-D" }}" pubdate>{{ date }}</time>
+					</a>
+					<span class="by-author" itemprop="author" itemscope itemtype="http://schema.org/Person">
+						<span class="sep"> by </span>
+						<span class="author vcard">
+							<a class="url fn n" itemprop="url name"
+								href="https://plus.google.com/100601805957701195662?rel=author"
+								title="Kris Walker's Profile" rel="author">Kris Walker</a>
+						</span>
+					</span>
+			</div>
+		</div>
+		{{ content }}
+		{{ theme:partial src='social-cta' }}
+	</div>
+</div>

@@ -1,5 +1,8 @@
 ---
 title: Thanks for Being One of the First
+description: "Taking a moment to dedicate Pinfinity to you and thank you for being one of the first."
+page_intro: "Multi-touch books, medicine, and education. <span class=\"sub\">It's what we do.</span>"
+_template: post
 ---
 
 __To the students:__ Pinfinity is dedicated to you. Digital publishing has
