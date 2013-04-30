@@ -286,7 +286,6 @@ li.nav-item {
 }
 #home .hero-shot .hero-shot-image {
 	margin: 4em 0 0 -20px;
-	margin: 0;
 	width: 500px;
 }
 #home > .content-header {
@@ -522,7 +521,7 @@ li.nav-item {
 	width: 800px;
 	height: 450px;
 }
-@media (max-width: 1130px) {
+@media (max-width: 1160px) {
 	#container {
 		width: 96%;
 		margin-left: 2%;
@@ -656,10 +655,16 @@ li.nav-item {
 		width: 100%;
 		margin-left: 0;
 	}
+	#books .products .book {
+		margin-top: 6em;
+	}
 	#book #content .item {
 		float: none;
 		width: 100%;
 		margin-left: 0;
+	}
+	#book #content .book-screenshot {
+		text-align: center;
 	}
 }
 

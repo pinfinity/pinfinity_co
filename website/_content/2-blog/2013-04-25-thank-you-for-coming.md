@@ -2,6 +2,7 @@
 title: Thanks for Being One of the First
 description: "Taking a moment to dedicate Pinfinity to you and thank you for being one of the first."
 page_intro: "Multi-touch books, medicine, and education. <span class=\"sub\">It's what we do.</span>"
+page_id: blog-post
 _template: post
 ---
 
@@ -19,7 +20,7 @@ all you do. We take great pride in our responsibility to help you do it even
 better.
 
 __For the patients:__ Nothing would make us more proud than to hear your stories of
-downloading one of our books, to better understand your own healthcare.
+downloading one of our books in order to better understand your own healthcare.
 Medicine can be intimidating and full of anxiety, but knowledge empowers, and
 overcomes. We're there for you.
 
@@ -32,6 +33,8 @@ continue lining the pockets of big, stale, publishing houses.
 
 Maybe we're crazy, but then, maybe that's a good thing.
 
-<iframe width="640" height="360" src="http://www.youtube.com/embed/O0S5SuAwIXs?rel=0" frameborder="0" allowfullscreen></iframe>
+<iframe width="640" height="360"
+	src="http://www.youtube.com/embed/O0S5SuAwIXs?rel=0"
+	frameborder="0" allowfullscreen></iframe>
 
 We're thrilled you've joined us on our journey.
