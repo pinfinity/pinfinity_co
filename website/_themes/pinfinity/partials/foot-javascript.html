@@ -8,6 +8,7 @@ $(function ($) {
 		return {target: $(el).attr('data-convert-name')};
 	});
 
+	// Resize content video for viewport size.
 	(function () {
 	  var $videos = $('iframe[src^="http://www.youtube.com"]')
 			, $container = $('.blog-post')

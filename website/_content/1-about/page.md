@@ -25,7 +25,7 @@ he is practicing Minimally Invasive Gastrointestinal Surgery, in addition to
 authoring multi-touch books to teach you all about it. So, to be frank, Jeff
 knows his stuff.</p>
 			<p class="link">
-				<a class="button" href="http://www.linkedin.com/pub/jeffrey-l-eakin-m-d/8/79a/338/">
+				<a class="button" href="http://www.linkedin.com/pub/jeffrey-l-eakin-m-d/8/79a/338/" data-convert-name="about-us Jeff LinkedIn">
 					<img src="{{ theme:img src='icons/linkedin.png' }}" width="18px" height="18px" />
 					&nbsp;&nbsp;Learn more about Dr. Eakin</a>
 			</p>
@@ -47,7 +47,7 @@ Pinfinity, but you could call him the chief cat herder, digital marketing
 strategist, or an online collaboration specialist, depending on the hour of the
 day. If we could afford an insurance policy on him, it would be a big one.</p>
 			<p class="link">
-				<a class="button" href="http://www.linkedin.com/pub/david-wilmert/1a/640/426/">
+				<a class="button" href="http://www.linkedin.com/pub/david-wilmert/1a/640/426/" data-convert-name="about-us David LinkedIn">
 					<img src="{{ theme:img src='icons/linkedin.png' }}" width="18px" height="18px" />
 					&nbsp;&nbsp;Learn more about David</a>
 			</p>
