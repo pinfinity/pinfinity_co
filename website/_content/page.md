@@ -23,7 +23,11 @@ _template: home
 		</p>
 	</div>
 	<div class="section boxb">
-		<p class="hero-shot-image"><img src="/assets/img/appendix-ipads.jpg" alt="The Gallbladder iBook for iPad"></p>
+		<p class="hero-shot-image">
+			<a href="/books/the_appendix_ibook" class="track-link-conversion"
+				data-convert-name="hero shot book image">
+				<img src="/assets/img/appendix-ipads.jpg" alt="The Appendix iBook for iPad"></a>
+			</p>
 	</div>
 </div><!-- .row.hero-shot -->
 
