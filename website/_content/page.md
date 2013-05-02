@@ -16,7 +16,7 @@ _template: home
 		<p class="call-to-action-subtext">
 		Download our latest iBook, <em class="title">The Appendix</em>, free from the iBookstore.</p>
 		<p class="bookstore-button">
-		<a class="btn"
+		<a class="btn track-link-conversion"
 			data-convert-name="hero shot itunes"
 			href="https://itunes.apple.com/us/book/the-appendix/id633373574?mt=11&uo=4"
 			target="itunes_store"></a>
@@ -33,7 +33,7 @@ _template: home
 
 <div class="row passion">
 	<div class="section boxa video-box">
-		<a class="lightbox-trigger" href="#freedom-video"
+		<a class="lightbox-trigger track-click-conversion" href="#freedom-video"
 			data-convert-name="freedom video"
 			data-video-url="http://m.youtube.com/#/watch?v=0gfjcN6ezSA">
 			<img class="video-img"
@@ -61,7 +61,7 @@ _template: home
 		</p>
 	</div>
 	<div class="section boxb video-box">
-		<a class="lightbox-trigger" href="#tutorial-video"
+		<a class="lightbox-trigger track-click-conversion" href="#tutorial-video"
 			data-convert-name="demo video"
 			data-video-url="http://m.youtube.com/#/watch?v=QYZmse-E33s">
 			<img class="video-img"
@@ -77,14 +77,18 @@ _template: home
 	<div class="section boxa">
 		<p class="content">
 		We're proud to be working with
-		<a href="http://www.encision.com/" class="partner-link" data-convert-name="encision">Encision</a>
+		<a href="http://www.encision.com/"
+			class="partner-link track-link-conversion"
+			data-convert-name="encision">Encision</a>
 		to give surgeons the information they need to optimize surgical technique
 		and patient safety.
 		</p>
 	</div>
 	<div class="section boxb">
 		<p class="logo">
-			<a href="http://www.encision.com/" class="partner-link" data-convert-name="encision">
+			<a href="http://www.encision.com/"
+				class="partner-link track-link-conversion"
+				data-convert-name="encision">
 			<img src="/assets/img/encision-logo.png"
 				alt="Encision devices optimize technique and patient safety."/>
 			</a>

@@ -4,8 +4,14 @@ $(function ($) {
 	APP.track('document_ready', {loadtime: new Date().getTime() - APP.start});
 
 	// Track convertions on links.
-	APP.trackLinks('[data-convert-name]', 'conversion', function (el) {
+	APP.trackLinks('.track-link-conversion', 'conversion', function (el) {
 		return {target: $(el).attr('data-convert-name')};
+	});
+
+	// Track click conversions.
+	$('.track-click-conversion').on('click', function (ev) {
+		var props = {target: $(this).attr('data-convert-name')};
+		APP.track('conversion', props);
 	});
 
 	// Resize content video for viewport size.
@@ -59,10 +65,9 @@ $(function ($) {
 			});
 		} else {
 			$('a.lightbox-trigger').click(function (ev) {
-				ev.preventDefault();
 				var action = $(this).attr('href').replace(/^#/, '');
 				loadLightbox(action);
-				return false;
+				ev.preventDefault();
 			});
 		}
 

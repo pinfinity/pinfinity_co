@@ -25,7 +25,9 @@ he is practicing Minimally Invasive Gastrointestinal Surgery, in addition to
 authoring multi-touch books to teach you all about it. So, to be frank, Jeff
 knows his stuff.</p>
 			<p class="link">
-				<a class="button" href="http://www.linkedin.com/pub/jeffrey-l-eakin-m-d/8/79a/338/" data-convert-name="about-us Jeff LinkedIn">
+				<a class="button track-link-conversion"
+					href="http://www.linkedin.com/pub/jeffrey-l-eakin-m-d/8/79a/338/"
+					data-convert-name="about-us Jeff LinkedIn">
 					<img src="{{ theme:img src='icons/linkedin.png' }}" width="18px" height="18px" />
 					&nbsp;&nbsp;Learn more about Dr. Eakin</a>
 			</p>
@@ -47,7 +49,9 @@ Pinfinity, but you could call him the chief cat herder, digital marketing
 strategist, or an online collaboration specialist, depending on the hour of the
 day. If we could afford an insurance policy on him, it would be a big one.</p>
 			<p class="link">
-				<a class="button" href="http://www.linkedin.com/pub/david-wilmert/1a/640/426/" data-convert-name="about-us David LinkedIn">
+				<a class="button track-link-conversion"
+					href="http://www.linkedin.com/pub/david-wilmert/1a/640/426/"
+					data-convert-name="about-us David LinkedIn">
 					<img src="{{ theme:img src='icons/linkedin.png' }}" width="18px" height="18px" />
 					&nbsp;&nbsp;Learn more about David</a>
 			</p>
@@ -68,7 +72,9 @@ for creating amazing multi-touch books for you. But, when he is not working on
 the next piece of our digital media empire, Kris can usually be found trying to
 get to the top of some big mountain (and safely back down). </p>
 			<p class="link">
-				<a class="button" href="http://www.linkedin.com/in/kixx7/">
+				<a class="button track-link-conversion"
+					href="http://www.linkedin.com/in/kixx7/"
+					data-convert-name="about-us Kris LinkedIn">
 					<img src="{{ theme:img src='icons/linkedin.png' }}" width="18px" height="18px" />
 					&nbsp;&nbsp;Learn more about Kris</a>
 			</p>
