@@ -49,7 +49,7 @@ _template: home
 	<div class="section boxb">
 		<h3 class="header light">We make iBooks for free so you can focus on what matters.</h3>
 		<p class="content">
-		We founded Pinfinity on the principal of paying it forward. Access to
+		We founded Pinfinity on the principle of paying it forward. Access to
 		information leads to knowledge, and knowledge empowers. That is what
 		drives us forward in everything we do.
 		</p>
@@ -60,8 +60,8 @@ _template: home
 	<div class="section boxa">
 		<h3 class="header light">Learning is more than just reading.</h3>
 		<p class="content">
-		It's easy remember what you need to know when you can put your finger on
-		it. Our multi-touch eBooks make learning	fun and more memorable.
+		It's easy to remember what you need to know when you can put your finger on
+		it. Our multi-touch eBooks make learning fun and more memorable.
 		</p>
 	</div>
 	<div class="section boxb video-box">
