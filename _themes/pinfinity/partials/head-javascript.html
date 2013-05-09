@@ -8,7 +8,7 @@ var APP = (function () {
 		inDevmode: /^([\d]+|localhost)/.test(window.location.hostname),
 		start: new Date().getTime(),
 		log: function () {
-			if (console && console.log) console.log.apply(console, arguments);
+			if (window.console && console.log) console.log.apply(console, arguments);
 		}
 	}
 
