@@ -31,6 +31,14 @@ _template: home
 	</div>
 </div><!-- .row.hero-shot -->
 
+<div class="row call-to-action">
+	<p>Interested in becoming a Pinfinity author?
+		<a class="button track-link-conversion"
+			href="/become_a_contributor"
+			data-convert-name="recruit call-to-action">Learn more</a>
+	</p>
+</div>
+
 <div class="content-header">
 	<h2 class="light header">A Passion for Medicine, Technology, and Learning</h2>
 </div>

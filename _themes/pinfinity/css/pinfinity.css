@@ -288,6 +288,14 @@ li.nav-item {
 	margin: 4em 0 0 -20px;
 	width: 500px;
 }
+.row.call-to-action {
+	font-size: 1.8em;
+	text-align: center;
+}
+.row.call-to-action .button {
+	margin-left: 2em;
+	font-size: 0.7em;
+}
 #home > .content-header {
 	clear: both;
 	background-color: #98ca3c;
@@ -468,6 +476,9 @@ li.nav-item {
 	font-size: 1.2em;
 	color: #777;
 }
+#contributor_form .embedded-form {
+	height: 954px;
+}
 .lightbox.disabled {
 	display: none;
 }
@@ -520,6 +531,14 @@ li.nav-item {
 	margin-left: -400px;
 	width: 800px;
 	height: 450px;
+}
+.embedded-form {
+	position: relative;
+}
+.embedded-form iframe {
+	position: absolute;
+	left: 50%;
+	margin-left: -350px;
 }
 @media (max-width: 1160px) {
 	#container {
@@ -665,6 +684,14 @@ li.nav-item {
 	}
 	#book #content .book-screenshot {
 		text-align: center;
+	}
+	.embedded-form {
+	}
+	.embedded-form iframe {
+		position: absolute;
+		width: 100%;
+		margin-left: 0;
+		left: 0;
 	}
 }
 
