@@ -476,6 +476,11 @@ li.nav-item {
 	font-size: 1.2em;
 	color: #777;
 }
+.blog-post .author-footer {
+	font-style: italic;
+	color: #777;
+	margin-top: 2em;
+}
 #contributor_form .embedded-form {
 	height: 954px;
 }

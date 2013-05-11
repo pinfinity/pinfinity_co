@@ -16,13 +16,13 @@
 						<span class="sep"> by </span>
 						<span class="author vcard">
 							<a class="url fn n" itemprop="url name"
-								href="https://plus.google.com/100601805957701195662?rel=author"
-								title="Kris Walker's Profile" rel="author">Kris Walker</a>
+								href="{{ author_url }}"
+								title="{{ author_name }}'s Profile" rel="author">{{ author_name }}</a>
 						</span>
 					</span>
 			</div>
 		</div>
 		{{ content }}
-		{{ theme:partial src='social-cta' }}
 	</div>
+	{{ theme:partial src='social-cta' }}
 </div>
