@@ -3,7 +3,7 @@ title: "What's the Big Idea: Creating, Publishing, and Marketing a High Quality 
 description: "It pays to take a step back and remember why you create multi-touch books. It is for the dissemination of knowledge in ways that were not possible before."
 page_intro: "Multi-touch books, medicine, and education. <span class=\"sub\">It's what we do.</span>"
 page_id: blog-post
-author_name: "Dr. Jeffrey Eakin M.D."
+author_name: "Jeffrey Eakin M.D."
 author_url: "https://plus.google.com/108105398269613162168?rel=author"
 _template: post
 ---
@@ -175,6 +175,16 @@ worth your time.
 	width="560" height="315"
 	frameborder="0" scrolling="no" webkitAllowFullScreen mozallowfullscreen allowFullScreen>
 </iframe>
+
+### Further Discussion
+There is a discussion of this post over on the
+[iBooks Author Collaborative](https://plus.google.com/u/0/108105398269613162168/posts/Lr4tZ23BZUm)
+as well as on [LinkedIn](http://lnkd.in/MrKssU).
+How do you view the digital publishing and learning paradigm shift?
+We'd love to hear from you, so please, [join in](https://plus.google.com/u/0/108105398269613162168/posts/Lr4tZ23BZUm).
+
+You can learn more about Pinfinity and what we stand for from our
+[Hello World!](/blog/thank-you-for-coming) post.
 
 <div class="author-footer">
 
