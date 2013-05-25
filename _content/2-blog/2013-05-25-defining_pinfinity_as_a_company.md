@@ -32,15 +32,12 @@ That's what social change is all about.
 ## Mad (and doing something about it).
 We founded Pinfinity because we were mad. We're mad that access to information
 is *still* not universal. In the world of textbooks for instance, a few
-corporate elephants hoard the writings of educators, and then make
-students, tax payers, and educators pay through the teeth to support an antique
-way of distributing information. We're mad about the health care industry,
-in general, for putting profit ahead of patient care.  As a former medical
-device sales rep, I had to sit in the waiting room while a customer of mine, a
-doctor, broke the news to a patient that a device I had sold, one which I never
-felt good about selling, had caused her condition. The company I worked for
-threatened my career as an incentive to make sales numbers. Ultimately I quit,
-and they got sued.
+corporate elephants hoard the writings of educators, and then make students,
+tax payers, and educators pay through the teeth to support an antique way of
+distributing information. We're mad about the health care industry, in general,
+for putting profit ahead of patient care.  We know there are great health care
+providers out there, who push for quality, and create great things, and make
+money doing it, but they're not the ones who grab headlines, unfortunately.
 
 But this doesn't have to happen. At Pinfinity we believe, just like Ben at
 Change.org, that we can make profound, positive, changes, and that we can do it
