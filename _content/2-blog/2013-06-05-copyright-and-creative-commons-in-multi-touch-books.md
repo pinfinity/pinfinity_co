@@ -7,8 +7,8 @@ author_name: "Kris Walker"
 author_url: "https://plus.google.com/100601805957701195662?rel=author"
 _template: post
 ---
-Multi-Touch books bring together a smorgasborg of content, including videos,
-text, and widgets, all of which is going to require your attention when it
+Multi-Touch books bring together a smorgasborg of content, including text, video,
+and images, all of which is going to require your attention when it
 comes to copyright laws. In a previous post we talked about how important
 [collaboration and open source contribution](/blog/creating-publishing-and-marketing-high-quality-ibooks) is
 going to be for creating high quality multi-touch textbooks.  As multi-touch
@@ -16,10 +16,13 @@ book authors we not only have to understand what copyright licenses we should
 release our own work under, but how to interpret the licences used by the
 creators of the videos, images, and other gadgetry we put in our books.
 
-But, when we break this down, it's really not too bad, and will become old hat
-for you before long. So, first, let's talk about copyright, generally, and then the
-new Creative Commons licenses, how to license your work and find other
-work you can use in your books, and all with relatively little effort.
+But, when we break this down, it's really not too bad. As you work on multi-touch books
+and iBooks Author, this will all become old hat
+for you before long.
+
+So, first, let's talk about copyright in general, the new Creative Commons
+licenses, and then how to license your work and find other work you can use in
+your books.
 
 ## You Don't Have to Do Anything
 That's not quite true. You have to do something creative first. Doing nothing
@@ -55,19 +58,20 @@ which came to a head in the US during a
 [copyright battle over a phone book](http://en.wikipedia.org/wiki/Feist_Publications_v._Rural_Telephone_Service).
 
 ## Fair Use: Quote, Cite, and Make Fun Of
-While we're being honest, we might as well mention the other caveat as well: If
-you need to use bits and pieces of a copyrighted work to make fun of the
-author, you're free to do so. This is the land which grants us the right to the
-pursuit of happiness after all.
+But, get this: If you need to use bits and pieces of a copyrighted work to make
+fun of the author, you're free to do so. This is the land which grants us the
+right to the pursuit of happiness after all.
 
 Seriously though, it's called
 [fair use](http://en.wikipedia.org/wiki/Fair_use)
-and it allows people to use limited portions of your work for commentary, search
-engines, criticism, news reporting, research, teaching, library archiving, and
-general scholarship. Fair use gets really blurry, and all the "rules of thumb"
-you hear out there (10 seconds of music, 1,000 words, 10% of a book) are not
-hard and fast rules, and could be challenged in court. These are the items the
-court is supposed to consider when deciding how to rule:
+and it allows people to use limited portions of your work for commentary,
+search engines, criticism, news reporting, research, teaching, library
+archiving, and general scholarship. Fair use gets really blurry, and it's
+important that you understand what it means at the core. All the "rules of
+thumb" you hear out there about fair use (10 seconds of music, 1,000 words, 10%
+of a book) are not hard and fast rules, and could be challenged in court. When
+that happens, the following considerations should be applied by the court when
+deciding how to rule:
 
 1. the purpose and character of the use, including whether such use is of a commercial nature or is for nonprofit educational purposes;
 2. the nature of the copyrighted work;
@@ -75,15 +79,18 @@ court is supposed to consider when deciding how to rule:
 4. the effect of the use upon the potential market for or value of the copyrighted work.
 
 ## Granting Rights
-So, all this copyright protection is pretty good for you as an author. But,
-let's assume for a moment that you want to make money with the book your wrote.
-So, you probably don't want anyone else selling it for themselves. Well, by
-default, nobody can sell your work, except you, under copyright law.
+Let's assume for a moment that you want to make money with the book you wrote.
+You probably don't want anyone else selling it for themselves and, by
+default, nobody can, except you, under copyright law.
+
+But existing copyright law, the kind you get by default when the glue dries on
+your noodle art, does not have any provisions for some of the other things you
+may want to do with your work.
 
 But, let's assume you also want to get famous, or at least promote your career,
 or you want to pass around useful information, like what you would find in a
-textbook, and allow other people to add to it and improve it along the way. In
-that case, you need to grant each person written permission to create
+textbook, and allow other people to be able add to it and improve it along the
+way. In that case, you need to grant each person written permission to create
 derivative works, and distribute your work and their work, while making them
 promise to give you credit for the original. That doesn't sound too bad until
 you consider we live in a world where our work is getting zipped around the
@@ -97,14 +104,11 @@ is a nonprofit legal organization formed in 2001 by some of the brightest minds
 in copyright law to solve this problem of granting some, but not all rights, to
 millions of people in an instant. They did this by creating 6 layers of
 copyright licenses which grant various levels of permissions, typically held by
-you as the copyright holder, to the general public. It is then up to you to sue
-anyone who violates your license. The government is not going to hunt them down
-for you, and neither would they for any other copyright infringement for that
-matter.
+you as the copyright holder, to anyone who downloads a copy of your work.
 
 To use a Creative Commons license, you simply visit their website, choose the license
 that does what you want it to do, and add the "badge", usually along with a hyperlink
-in the case of digital media, to your book. More about this below, but here is a summary
+in the case of multi-touch books. More about this below, but here is a summary
 of the licenses:
 
 ### Attribution, Non-Commercial, No Derivatives
@@ -146,8 +150,14 @@ that's all to much, they have a slightly less complicated
 [license choosing thingamajig](http://creativecommons.org/choose/)
 that you can use decide on the proper license for your book.
 
+Just keep in mind, that most governments do not actively enforce copyright law.
+It's up to you to find and sue copyright violators whether you're using a
+Creative Commons license or just releasing your work under the default
+copyright laws. In most cases you probably don't care enough to chase somebody
+down, but you may want to hold the big publishers accountable.
+
 ## Licencing Your Muli-Touch Book With Creative Commons
-Giving your book a Creative Commons license is actually pretty easy. Once
+Giving your book a Creative Commons license is relatively easy thing to do. Once
 you've decided on which license to use (maybe using the license choosing tool
 mentioned above), it's just a matter of marking one of the introductory pages
 of your book with the appropriate badge and copyright notices.  If you're using
@@ -164,7 +174,7 @@ when you're done, so you should definitely check that out.
 If you're using Creative Commons licensed content in your book, things can get
 a bit more complicated, but it is still waaaay easier than asking dozens of
 creators for specific written permission to include their stuff in your
-multi-touch book like you would have under conventional copyright laws.
+multi-touch book like you would have to do under conventional copyright laws.
 
 So here's the scoop:
 
@@ -192,15 +202,13 @@ to the original creator of the works you are using.
 ## Use It
 That's it. Use it.
 
-Remember, that all your work is protected by exciting copyright laws by default
+Remember, that all your work is protected by existing copyright laws by default
 (as long as it is considered to be somewhat creative). That means nobody is
 going to be able to legally use your work in their books without bugging you
 with emails. So, you need to to make sure to apply one of the Creative Commons
-licenses to your multi-touch book so that it can be shared around the world,
-making you instantly famous.
+licenses to your multi-touch book so that it can be shared instantly around the
+world without having to give written permission to everyone who obtains a copy.
 
-Lastly, there are a lot of great people out there creating great content. Much
-of it is carrying a Creative Commons license. You should use it, and give them
-credit for it, which will make them instantly famous.
-
-If we stick together on this, we're all going to become instantly famous. Not a bad deal.
+Lastly, there are a lot of great people out there creating great content, and much
+of it is carrying a Creative Commons license. You should use it, and give the creators
+credit for their work, which will make you both instantly famous.
