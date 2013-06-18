@@ -39,7 +39,7 @@ situations. How many times have you called customer service and they have a
 signed copy of your contract which you neglected to read based on a lack of
 time and wherewithal.  Who's fault is that, really?
 
-## We Want You! Take Ownership.
+## Take Ownership
 I have a few different choices when it comes to internet providers in my area
 (internet/cable providers find themselves in an area of limited competition, an
 Oligopoly if you will).  In my opinion this is an area where we as consumers
@@ -49,18 +49,8 @@ performance we have experienced.
 
 The Crux: We can't blame the system or these corporations for what they lack.
 The buck stops with us.  To all domain experts: If you can provide a solution
-to a problem that benefits the consumer...you are in business.  Take action,
-Innovate...Create!!
-
-## Technology Destroys Jobs to Create More
-If three guys in a basement provide a solution superior to that of a company
-that employs 100,000 consumers/individuals/employees, will jobs be lost?  Yes
-they will.  Let's turn the tables.  Just as its our job as consumers to create,
-innovate and make things better.....companies are no different.  If companies
-can't keep up with three guys in a basement, how good are they?  So again, jobs
-will be lost, but hopefully more will be created.  If you want to break it
-down...it would be a shame to keep 100,000 people employed at the expense of
-billions.
+to a problem that benefits the consumer...you are in business.  Take ownership
+of it, innovate...Create!!
 
 ## Take Action
 It is not up to "other people" to dictate what you have to live with. If you're
