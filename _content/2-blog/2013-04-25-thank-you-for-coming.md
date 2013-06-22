@@ -7,6 +7,11 @@ author_name: "Kris Walker"
 author_url: "https://plus.google.com/100601805957701195662?rel=author"
 _template: post
 ---
+<figure class="float-right">
+	<img src="/assets/figures/free-textbooks-w520h292.jpg" width="520px" />
+	<figcaption>
+	</figcaption>
+</figure>
 
 __To the students:__ Pinfinity is dedicated to you. Digital publishing has
 dramatically changed the way information should be presented in a learning
