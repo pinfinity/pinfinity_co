@@ -36,7 +36,7 @@ continue lining the pockets of big, stale, publishing houses.
 Maybe we're crazy, but then, maybe that's a good thing.
 
 <iframe width="640" height="360"
-	src="http://www.youtube.com/embed/O0S5SuAwIXs?rel=0"
+	src="http://www.youtube.com/embed/aQQirziGl0I?rel=0"
 	frameborder="0" allowfullscreen></iframe>
 
 We're thrilled you've joined us on our journey.
