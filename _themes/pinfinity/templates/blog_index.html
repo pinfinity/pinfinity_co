@@ -1,31 +1,13 @@
 <div id="blog-index" class="page row">
 	{{ theme:partial src='page-header' }}
 
-	{{ entries:listing folder="blog" limit="2" }}
-	<div class="blog-post hentry content" itemscope itemtype="http://schema.org/BlogPosting">
-		<div class="entry-header">
-			<h1 class="entry-title header light" itemprop="name">
-				<a href="http://www.pinfinity.co{{ url }}"
-					rel="bookmark" itemprop="url">{{ title }}</a>
-			</h1>
-			<div class="entry-meta light">
-					<span class="sep">Posted on </span>
-					<time class="published" itemprop="datePublished"
-						datetime="{{ datestamp format="Y-m-d" }}" pubdate>{{ date }}</time>
-					</a>
-					<span class="by-author" itemprop="author" itemscope itemtype="http://schema.org/Person">
-						<span class="sep"> by </span>
-						<span class="author vcard">
-							<a class="url fn n" itemprop="url name"
-								href="{{ author_url }}"
-								title="{{ author_name }}'s Profile" rel="author">{{ author_name }}</a>
-						</span>
-					</span>
-			</div>
-		</div>
-		{{ content }}
-	</div>
+	<ul>
+	{{ entries:listing folder="blog" }}
+	<li>
+		<a href="{{ url }}">{{ title }}</a>
+	</li>
 	{{ /entries:listing }}
+	</ul>
 
 	{{ theme:partial src='social-cta' }}
 </div>
