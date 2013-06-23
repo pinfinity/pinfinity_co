@@ -709,9 +709,12 @@ li.nav-item {
 
 /* Hub Gallery
  */
-#hub-gallery .entry {
+#hub-gallery .widget-column {
 	float: left;
-	width: 33.3%;
+	width: 33.33%;
+	margin-top: 1em;
+}
+#hub-gallery .entry {
 	margin-top: 1em;
 }
 #hub-gallery .entry-inner {
