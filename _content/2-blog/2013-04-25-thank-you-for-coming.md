@@ -10,6 +10,7 @@ _template: post
 <figure class="float-right">
 	<img src="/assets/figures/free-textbooks-w520h292.jpg" width="520px" />
 	<figcaption>
+		Original by <a href="http://www.flickr.com/photos/opensourceway/">Open Source Way</a>.
 	</figcaption>
 </figure>
 

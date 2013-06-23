@@ -7,6 +7,14 @@ author_name: "Kris Walker"
 author_url: "https://plus.google.com/100601805957701195662?rel=author"
 _template: post
 ---
+<figure class="float-right">
+	<img src="/assets/figures/html5-screen-w700h615.jpg" width="700px" />
+	<figcaption>
+		The HTML5 markings.
+		Original by <a href="http://www.flickr.com/photos/michaelpollak/">Michael Pollak</a>.
+	</figcaption>
+</figure>
+
 *Pssst: If you don't want to read this blog post and just want to skip ahead to
 the widget gallery, here's the link:* [HTML5 Widget Gallery](/hub/gallery/)
 

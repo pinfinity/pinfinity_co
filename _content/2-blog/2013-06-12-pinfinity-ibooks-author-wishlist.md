@@ -7,6 +7,10 @@ author_name: "Kris Walker"
 author_url: "https://plus.google.com/100601805957701195662?rel=author"
 _template: post
 ---
+<figure class="float-left">
+	<img src="/assets/figures/ibooks-author-w175h175.png" width="175px" />
+</figure>
+
 If you're not familiar with
 [iBooks Author](http://www.apple.com/ibooks-author/),
 it is the primary drag and drop editing and layout tool for producing

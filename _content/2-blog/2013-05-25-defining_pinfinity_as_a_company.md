@@ -1,12 +1,18 @@
 ---
 title: "Transparency: Defining Pinfinity as a Company"
 description: "Our conflict: Inciting social change and making a profit."
-page_intro: "Access to information must improve. <span class=\"sub\">We just might be mad enough to do something about it.</span>"
+page_intro: "We can improve the way we get our information. <span class=\"sub\">And we just might be mad enough to do it.</span>"
 page_id: blog-post
 author_name: "David Wilmert"
 author_url: "https://plus.google.com/110776572147132070844?rel=author"
 _template: post
 ---
+<figure class="span">
+	<img src="/assets/figures/fish-bowl-w700h601.jpg" width="700px" />
+	<figcaption>
+		Original by <a href="http://www.flickr.com/photos/deanmccoyphotos/">Dean McCoy Photography</a>.
+	</figcaption>
+</figure>
 
 A few days ago,
 [Ben Rattray](https://www.facebook.com/benrattray),

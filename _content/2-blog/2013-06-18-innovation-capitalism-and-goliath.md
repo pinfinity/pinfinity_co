@@ -7,11 +7,17 @@ author_name: "David Wilmert"
 author_url: "https://plus.google.com/110776572147132070844?rel=author"
 _template: post
 ---
-
 Can three people with a vision, a newly formed company and less resources than
 that of their competition, destroy the opposition?
 
 ## Capitalism: The Root of All Evil?
+<figure class="float-left">
+	<img src="/assets/figures/book-stacks-w700h933.jpg" width="700px" />
+	<figcaption>
+		Stacks of legacy textbooks.
+		Original by <a href="http://www.flickr.com/photos/ajalfaro/">ajalfaro</a>.
+	</figcaption>
+</figure>
 Say what you will about capitalism (we can dive into the topic of greed in a
 different Blog Post); it's not the perfect system, but it leverages the power
 of individual choice to uproot large, stale organizations, and sweep them away

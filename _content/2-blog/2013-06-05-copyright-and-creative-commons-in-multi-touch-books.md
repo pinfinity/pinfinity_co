@@ -7,6 +7,13 @@ author_name: "Kris Walker"
 author_url: "https://plus.google.com/100601805957701195662?rel=author"
 _template: post
 ---
+<figure class="float-right">
+	<img src="/assets/figures/crazy-staircase-w700-h834.jpg" width="700px" />
+	<figcaption>
+		Sometimes working within copyright can feel like this.
+		Original by <a href="http://www.flickr.com/photos/72213316@N00/">Alaskin Dude</a>.
+	</figcaption>
+</figure>
 Multi-Touch books bring together a smorgasborg of content, including text, video,
 and images, all of which is going to require your attention when it
 comes to copyright laws. In a previous post we talked about how important

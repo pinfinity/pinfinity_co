@@ -19,18 +19,30 @@ file and see what I could learn. As it turns out, I learned quite a lot, and I'd
 with you. This post is pretty geeky, but even if you don't think you'll ever be a programmer,
 as a book author and consumer, I think you'll find some of this stuff interesting.
 
+<figure class="float-left">
+	<img src="/assets/figures/sunk-truck-w700h600.jpg" width="700px" />
+	<figcaption>
+		An "italics" truck. Original by <a href="http://www.flickr.com/photos/lgrphotos/">LGR Photos</a>.
+	</figcaption>
+</figure>
+
 ## It's just a zip file.
 The first thing to note about .ibooks files is that they are just a zip file (or zip "archive",
 if you want to be technical about it). So, to see the interesting stuff we'll need to unzip
 it and have a look around.
 
-But, even after changing the file extension from .books to .zip, I still wasn't
-able to use the Finder to unzip it.
-Geek confession here: As a programmer, I actually do most of my work from the terminal, rather than
-using the Finder, since, once
-you learn it, it is so much faster for moving files around, unzipping, and compressing them.
-So, naturally, the series of steps for uncompressing an ibooks file on the terminal is really
-simple:
+But, even after changing the file extension from .books to .zip, I still
+wasn't able to use the Finder to unzip it. I later learned that this was
+because I didn't have any zip utility software on my machine (like
+[Stuffit](http://www.stuffit.com/mac-expander.html)) which allows you do do
+this. Thanks to [Steve Dickie](https://plus.google.com/103412747657062364551/about) for the
+[tip](https://plus.google.com/100601805957701195662/posts/5BABXpLMwyF).
+
+Geek confession here: As a programmer, I actually do most of my work from the
+terminal, rather than using the Finder, since, once you learn it, it is so
+much faster for moving files around, unzipping, and compressing them. So,
+naturally, the series of steps for uncompressing an ibooks file on the
+terminal is really simple:
 
 You won't need to change the file
 extension from .ibooks to .zip. Simply navigate
@@ -40,11 +52,10 @@ to the folder containing your book using the `cd` command and then run this comm
 
 That command will "explode" your ibook and allow you to explore the contents.
 
-If anyone knows of an easier way to do that using the Finder,
-[let me know](https://twitter.com/kixxauth). I'd love to hear from you.
-
-Once we have the .ibooks file extracted, this is how the directory and file "tree" is structured.
-If you are familiar with ePub, then this will look really similar:
+So from the Finder, or your terminal, you can unzip an .ibooks file without
+too much trouble. And once we have the .ibooks file extracted, this is how the
+directory and file "tree" is structured. If you are familiar with ePub, then
+this will look really similar:
 
 <script src="https://gist.github.com/kixxauth/5627361.js?file=filestructure.txt"></script>
 
