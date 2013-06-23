@@ -78,6 +78,9 @@ figcaption {
 		display: none !important;
 		visibility: hidden;
 }
+.container {
+	overflow: hidden;
+}
 
 /* Typography
  */
@@ -550,7 +553,8 @@ li.nav-item {
 	padding: 3em 0 2em;
 }
 #home .row.passion .section .header,
-#home .row.product .section .header {
+#home .row.product .section .header,
+#home .row.partners .header {
 	font-size: 2.2em;
 	color: #4d4841;
 }
@@ -581,28 +585,27 @@ li.nav-item {
 	padding: 1em 3%;
 }
 #home .row.partners {
-	background: #222;
 	margin: 3em 0 0;
-	color: #ccc;
 }
 #home .row.partners .header {
-	font-size: 2em;
 	margin: .3em 0;
 }
 #home .row.partners a {
 	color: #e96f00;
 }
+#home .row.partners .partner {
+	float: left;
+	width: 50%;
+}
+#home .row.partners .partner .boxa {
+	margin-right: 2em;
+}
+#home .row.partners .partner .boxb {
+	margin-left: 2em;
+}
 #home .row.partners .content {
 	margin-top: 2em;
 	font-weight: 200;
-}
-#home .row.partners .logo {
-	max-width: 240px;
-	background: #fff;
-	padding: 16px;
-	-webkit-border-radius: 4px;
-		 -moz-border-radius: 4px;
-					border-radius: 4px;
 }
 
 /* About Us
