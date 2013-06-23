@@ -4,8 +4,19 @@
 	<meta charset="utf-8">
 	<title>{{ title }}</title>
 	<meta name="description" content="{{ description }}">
+	<meta property="og:title" content="{{ social_title }}">
+	<meta property="og:type" content="{{ social_type }}">
+	<meta property="og:image" content="http://www.pinfinity.co{{ media_image }}">
+	<meta property="og:description" content="{{ social_description }}">
+	<meta property="fb:admins" content="100004380668072">
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:site" content="@PinfinityBooks">
+	<meta name="twitter:title" content="{{ title }}">
+	<meta name="twitter:description" content="{{ description }}">
+	<meta name="twitter:image" content="http://www.pinfinity.co{{ media_image }}">
+
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel=“icon” href=/favicon.ico sizes="16x16 32x32 48x48 64x64" type=”image/vnd.microsoft.icon”>
+	<link rel=“icon” href="/favicon.ico" sizes="16x16 32x32 48x48 64x64" type="image/vnd.microsoft.icon">
 	<link rel="stylesheet" href="{{ theme:css src="pinfinity_20130622" }}" />
 	{{ theme:partial src='head-javascript' }}
 </head>
