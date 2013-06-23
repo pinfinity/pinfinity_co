@@ -1,6 +1,10 @@
 ---
-title: Pinfinity Medical iBooks
-description: "Pinfinity creates amazing iBooks for medical education, free to download on your iPad."
+title: Pinfinity Multi-Touch Textbooks
+description: "Pinfinity creates amazing multi-touch iBooks for education in medicine and surgery, all of which are free to download on your iPad."
+social_type: website
+social_title: "Pinfinity: Publisher of amazing multi-touch textbooks for your iPad."
+social_description: "Pinfinity creates and publishes amazing multi-touch iBooks for education in medicine, surgery, and health care. All of Pinfinity's books are free to download on your iPad."
+media_image: "/assets/img/pinfinity-social-300.png" 
 _template: home
 ---
 
