@@ -5,10 +5,11 @@ page_intro: "We can improve the way we get our information. <span class=\"sub\">
 page_id: blog-post
 author_name: "David Wilmert"
 author_url: "https://plus.google.com/110776572147132070844?rel=author"
+media_image: "/assets/figures/fish-bowl-w349h300.jpg"
 _template: post
 ---
 <figure class="span">
-	<img src="/assets/figures/fish-bowl-w700h601.jpg" width="700px" />
+	<img src="/assets/figures/fish-bowl-w700h601.jpg" width="700px" alt="Little girl looking into a fish bowl" />
 	<figcaption>
 		Original by <a href="http://www.flickr.com/photos/deanmccoyphotos/">Dean McCoy Photography</a>.
 	</figcaption>

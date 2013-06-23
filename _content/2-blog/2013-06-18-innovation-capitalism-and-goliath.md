@@ -5,6 +5,7 @@ page_intro: "Textbooks: <span class=\"sub\">Do they matter enough for a startup 
 page_id: blog-post
 author_name: "David Wilmert"
 author_url: "https://plus.google.com/110776572147132070844?rel=author"
+media_image: "/assets/figures/book-stacks-w300h300.jpg"
 _template: post
 ---
 Can three people with a vision, a newly formed company and less resources than
@@ -12,7 +13,7 @@ that of their competition, destroy the opposition?
 
 ## Capitalism: The Root of All Evil?
 <figure class="float-left">
-	<img src="/assets/figures/book-stacks-w700h933.jpg" width="700px" />
+	<img src="/assets/figures/book-stacks-w700h933.jpg" width="700px" alt="Stacks of chemistry textbooks" />
 	<figcaption>
 		Stacks of legacy textbooks.
 		Original by <a href="http://www.flickr.com/photos/ajalfaro/">ajalfaro</a>.

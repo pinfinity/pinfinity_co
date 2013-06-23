@@ -5,10 +5,11 @@ page_intro: "Multi-touch books, medicine, and education. <span class=\"sub\">It'
 page_id: blog-post
 author_name: "Jeffrey Eakin M.D."
 author_url: "https://plus.google.com/108105398269613162168?rel=author"
+media_image: "/assets/figures/writing-desk-w300h300.jpg"
 _template: post
 ---
 <figure class="float-right">
-	<img src="/assets/figures/writing-desk-w700h468.jpg" width="700px" />
+	<img src="/assets/figures/writing-desk-w700h468.jpg" width="700px" alt="A writing desk" />
 	<figcaption>
 		Writing desk. Original by <a href="http://www.flickr.com/photos/gudmd/">gudmd.haralds</a>
 	</figcaption>

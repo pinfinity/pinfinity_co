@@ -5,10 +5,11 @@ page_intro: "Taking Multi-Touch textbooks to the next level. <span class=\"sub\"
 page_id: blog-post
 author_name: "Kris Walker"
 author_url: "https://plus.google.com/100601805957701195662?rel=author"
+media_image: "/assets/figures/ibooks-author-w175h175.png"
 _template: post
 ---
 <figure class="float-left">
-	<img src="/assets/figures/ibooks-author-w175h175.png" width="175px" />
+	<img src="/assets/figures/ibooks-author-w175h175.png" width="175px" alt="iBooks Author icon" />
 </figure>
 
 If you're not familiar with

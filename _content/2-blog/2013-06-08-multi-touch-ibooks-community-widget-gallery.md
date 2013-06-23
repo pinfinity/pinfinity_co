@@ -5,10 +5,11 @@ page_intro: "Multi-touch books, medicine, and education. <span class=\"sub\">It'
 page_id: blog-post
 author_name: "Kris Walker"
 author_url: "https://plus.google.com/100601805957701195662?rel=author"
+media_image: "/assets/figures/html5-screen-w300h300.jpg"
 _template: post
 ---
 <figure class="float-right">
-	<img src="/assets/figures/html5-screen-w700h615.jpg" width="700px" />
+	<img src="/assets/figures/html5-screen-w700h615.jpg" width="700px" alt="HTML5 branding icon" />
 	<figcaption>
 		The HTML5 markings.
 		Original by <a href="http://www.flickr.com/photos/michaelpollak/">Michael Pollak</a>.

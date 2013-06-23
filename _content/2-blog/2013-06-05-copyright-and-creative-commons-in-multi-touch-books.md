@@ -5,10 +5,11 @@ page_intro: "Multi-touch books, medicine, and education. <span class=\"sub\">It'
 page_id: blog-post
 author_name: "Kris Walker"
 author_url: "https://plus.google.com/100601805957701195662?rel=author"
+media_image: "/assets/figures/crazy-staircase-w700-h834.jpg"
 _template: post
 ---
 <figure class="float-right">
-	<img src="/assets/figures/crazy-staircase-w700-h834.jpg" width="700px" />
+	<img src="/assets/figures/crazy-staircase-w700-h834.jpg" width="700px" alt="A crazy staircase sculpture" />
 	<figcaption>
 		Sometimes working within copyright can feel like this.
 		Original by <a href="http://www.flickr.com/photos/72213316@N00/">Alaskin Dude</a>.

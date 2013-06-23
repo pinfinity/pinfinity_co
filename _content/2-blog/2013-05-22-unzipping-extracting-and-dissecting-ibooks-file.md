@@ -5,6 +5,7 @@ page_intro: "Multi-touch books, medicine, and education. <span class=\"sub\">It'
 page_id: blog-post
 author_name: "Kris Walker"
 author_url: "https://plus.google.com/100601805957701195662?rel=author"
+media_image: "/assets/figures/sunk-truck-w300h300.jpg"
 _template: post
 ---
 
@@ -20,7 +21,7 @@ with you. This post is pretty geeky, but even if you don't think you'll ever be 
 as a book author and consumer, I think you'll find some of this stuff interesting.
 
 <figure class="float-left">
-	<img src="/assets/figures/sunk-truck-w700h600.jpg" width="700px" />
+	<img src="/assets/figures/sunk-truck-w700h600.jpg" width="700px" alt="A sunken truck" />
 	<figcaption>
 		An "italics" truck. Original by <a href="http://www.flickr.com/photos/lgrphotos/">LGR Photos</a>.
 	</figcaption>

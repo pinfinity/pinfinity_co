@@ -1,10 +1,17 @@
 <div id="blog-index" class="page row">
 	{{ theme:partial src='page-header' }}
 
-	<ul>
+	<ul class="article-list">
 	{{ entries:listing folder="blog" }}
-	<li>
-		<a href="{{ url }}">{{ title }}</a>
+	<li class="article-item">
+		<p class="image">
+		<a href="{{ url }}">
+			<img src="{{ media_image }}" width="150px" alt="Blog post media image." />
+		</a>
+		</p>
+		<p class="text"><strong class="header light blog-title"><a href="{{ url }}">{{ title }}</a></strong><br>
+			{{ description }}
+		</p>
 	</li>
 	{{ /entries:listing }}
 	</ul>

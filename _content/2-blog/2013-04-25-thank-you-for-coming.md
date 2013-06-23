@@ -5,10 +5,11 @@ page_intro: "Multi-touch books, medicine, and education. <span class=\"sub\">It'
 page_id: blog-post
 author_name: "Kris Walker"
 author_url: "https://plus.google.com/100601805957701195662?rel=author"
+media_image: "/assets/figures/free-textbooks-w520h292.jpg"
 _template: post
 ---
 <figure class="float-right">
-	<img src="/assets/figures/free-textbooks-w520h292.jpg" width="520px" />
+	<img src="/assets/figures/free-textbooks-w520h292.jpg" width="520px" alt="Flying textbooks" />
 	<figcaption>
 		Original by <a href="http://www.flickr.com/photos/opensourceway/">Open Source Way</a>.
 	</figcaption>
