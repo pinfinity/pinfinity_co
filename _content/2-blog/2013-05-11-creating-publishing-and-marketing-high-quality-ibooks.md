@@ -1,11 +1,14 @@
 ---
 title: "What's the Big Idea: Creating, Publishing, and Marketing a High Quality iBook Textbook"
 description: "It pays to take a step back and remember why you create multi-touch books. It is for the dissemination of knowledge in ways that were not possible before."
+social_type: "article"
+social_title: "What's the Big Idea: Creating, Publishing, and Marketing a High Quality iBook Textbook"
+social_description: "It pays to take a step back and remember why you create multi-touch books. It is for the dissemination of knowledge in ways that were not possible before."
+media_image: "/assets/figures/writing-desk-w300h300.jpg"
 page_intro: "Multi-touch books, medicine, and education. <span class=\"sub\">It's what we do.</span>"
 page_id: blog-post
 author_name: "Jeffrey Eakin M.D."
 author_url: "https://plus.google.com/108105398269613162168?rel=author"
-media_image: "/assets/figures/writing-desk-w300h300.jpg"
 _template: post
 ---
 <figure class="float-right">

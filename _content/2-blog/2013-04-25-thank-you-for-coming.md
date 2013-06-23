@@ -1,6 +1,9 @@
 ---
 title: Thanks for Being One of the First
 description: "Taking a moment to dedicate Pinfinity to you and thank you for being one of the first."
+social_type: article
+social_title: Thanks for Being One of the First to Join Pinfinity
+social_description: "We'd like to take a moment to dedicate Pinfinity to you and thank you for being one of the first to join us on our mission to change textbooks."
 page_intro: "Multi-touch books, medicine, and education. <span class=\"sub\">It's what we do.</span>"
 page_id: blog-post
 author_name: "Kris Walker"

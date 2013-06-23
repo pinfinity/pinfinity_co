@@ -1,13 +1,17 @@
-<div id="book" class="page">
+<div id="book" class="page" itemscope itemtype="http://schema.org/Book">
 	<div class="hero-shot row">
 		<div class="section boxa">
 			<p class="hero-shot-image">
-				<img src="/assets/img/{{ book_ipad_image }}" alt="{{ book_title }} iBook for iPad" />
+				<img src="/assets/img/{{ book_ipad_image }}"
+					itemprop="image"
+					alt="{{ book_title }} iBook for iPad" />
 			</p>
 		</div>
 		<div class="section boxb">
-			<h1 class="book-title header">{{ book_title }}</h1>
-			<h2 class="book-author header light">By {{ book_author }}</h1>
+			<h1 class="book-title header" itemprop="name">{{ book_title }}</h1>
+			<h2 class="book-author header light">
+				By <a itemprop="author" href="{{ book_author_url }}">{{ book_author }}</a>
+			</h2>
 			<p class="call-to-action-subtext">
 			Download <em class="title">{{ book_title }}</em>, free from the iBookstore.</p>
 			<p class="bookstore-button">

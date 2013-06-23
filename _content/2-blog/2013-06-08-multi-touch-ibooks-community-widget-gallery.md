@@ -1,11 +1,14 @@
 ---
 title: "A Community Multi-Touch Widget Gallery"
-description: "Multi-Touch books have introduced amazing ways of creating interactive content in books using widgets, but until now, there was no way to view and share widgets online."
+description: "Until now, there was no way to view and share HTML5 widgets for multi-touch books online."
+social_type: article
+social_title: "A Community Multi-Touch Widget Gallery"
+social_description: "Multi-Touch books have introduced amazing ways of creating interactive content in books using widgets, but until now, there was no way to view and share widgets online."
+media_image: "/assets/figures/html5-screen-w300h300.jpg"
 page_intro: "Multi-touch books, medicine, and education. <span class=\"sub\">It's what we do.</span>"
 page_id: blog-post
 author_name: "Kris Walker"
 author_url: "https://plus.google.com/100601805957701195662?rel=author"
-media_image: "/assets/figures/html5-screen-w300h300.jpg"
 _template: post
 ---
 <figure class="float-right">

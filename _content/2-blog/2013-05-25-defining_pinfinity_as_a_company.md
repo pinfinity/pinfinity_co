@@ -1,11 +1,14 @@
 ---
 title: "Transparency: Defining Pinfinity as a Company"
 description: "Our conflict: Inciting social change and making a profit."
+social_type: article
+social_title: "Transparency: Defining Pinfinity as a Company"
+social_description: "Our conflict: Inciting social change and making a profit."
+media_image: "/assets/figures/fish-bowl-w349h300.jpg"
 page_intro: "We can improve the way we get our information. <span class=\"sub\">And we just might be mad enough to do it.</span>"
 page_id: blog-post
 author_name: "David Wilmert"
 author_url: "https://plus.google.com/110776572147132070844?rel=author"
-media_image: "/assets/figures/fish-bowl-w349h300.jpg"
 _template: post
 ---
 <figure class="span">

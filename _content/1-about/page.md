@@ -1,6 +1,10 @@
 ---
-title: The Pinfinity Team
+title: "Introducing the Pinfinity Publishing Team"
 description: "Work isn't really work when you have a great team, and that's how we roll."
+social_type: website
+social_title: "Introducing the Pinfinity Publishing Team"
+social_description: "Producing quality multi-touch interactive textbooks takes a lot of work. But work isn't really work when you have a great team, and that's how we roll."
+media_image: "/assets/img/pinfinity-social-300.png" 
 page_intro: "Work isn't really work when you have a great team.<br /><span class='sub'>And that's how we roll.</span>"
 page_id: "about-us"
 _template: page

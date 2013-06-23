@@ -1,11 +1,14 @@
 ---
 title: "Unzipping, Extracting, and Dissecting an iBooks File"
 description: "Let's dive into the .books file and see what we can learn about Apple's iBooks platform."
+social_type: article
+social_title: "Unzipping, Extracting, and Dissecting an iBooks File"
+social_description: "Let's dive into the .books file and see what we can learn about Apple's iBooks platform."
+media_image: "/assets/figures/sunk-truck-w300h300.jpg"
 page_intro: "Multi-touch books, medicine, and education. <span class=\"sub\">It's what we do.</span>"
 page_id: blog-post
 author_name: "Kris Walker"
 author_url: "https://plus.google.com/100601805957701195662?rel=author"
-media_image: "/assets/figures/sunk-truck-w300h300.jpg"
 _template: post
 ---
 

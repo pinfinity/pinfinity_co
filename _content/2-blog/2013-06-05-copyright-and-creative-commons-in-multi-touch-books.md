@@ -1,11 +1,14 @@
 ---
 title: "The Unconventional Guide to Copyright and Creative Commons in Multi-Touch eBooks"
 description: "Multi-Touch books bring together a lot of content like videos, text, and widgets, all of which is going to require your attention when it comes to copyright laws."
+social_title: "The Unconventional Guide to Copyright and Creative Commons in Multi-Touch eBooks"
+social_description: "Multi-Touch books bring together a lot of content like videos, text, and widgets, all of which is going to require your attention when it comes to copyright laws."
+social_type: article
+media_image: "/assets/figures/crazy-staircase-w700-h834.jpg"
 page_intro: "Multi-touch books, medicine, and education. <span class=\"sub\">It's what we do.</span>"
 page_id: blog-post
 author_name: "Kris Walker"
 author_url: "https://plus.google.com/100601805957701195662?rel=author"
-media_image: "/assets/figures/crazy-staircase-w700-h834.jpg"
 _template: post
 ---
 <figure class="float-right">

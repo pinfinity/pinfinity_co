@@ -1,11 +1,14 @@
 ---
 title: "Killing Goliaths: Innovation, Capitalism, and Startups"
 description: "Capitalism creates an environment for startups to innovate and enact change to make us all better."
+social_type: article
+social_title: "Killing Goliaths: Innovation, Capitalism, and Startups"
+social_description: "Capitalism creates an environment for startups to innovate and enact change to make us all better."
+media_image: "/assets/figures/book-stacks-w300h300.jpg"
 page_intro: "Textbooks: <span class=\"sub\">Do they matter enough for a startup to make them better?</span>"
 page_id: blog-post
 author_name: "David Wilmert"
 author_url: "https://plus.google.com/110776572147132070844?rel=author"
-media_image: "/assets/figures/book-stacks-w300h300.jpg"
 _template: post
 ---
 Can three people with a vision, a newly formed company and less resources than
