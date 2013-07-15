@@ -1,6 +1,9 @@
 ---
 title: "The Pinfinity iBooks Author Wishlist: Top 7"
 description: "Apple introduced iBooks Author in early 2012, with the hope that it would provide an ideal platform for teachers with limited software knowledge to build interactive books. But since then we've learned that we want even more."
+social_type: "article"
+social_title: "The Pinfinity iBooks Author Wishlist: Top 7"
+social_description: "Apple introduced iBooks Author in early 2012, with the hope that it would provide an ideal platform for teachers with limited software knowledge to build interactive books. But since then we've learned that we want even more."
 page_intro: "Taking Multi-Touch textbooks to the next level. <span class=\"sub\">It's what we do.</span>"
 page_id: blog-post
 author_name: "Kris Walker"

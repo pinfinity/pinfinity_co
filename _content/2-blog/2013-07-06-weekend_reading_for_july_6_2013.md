@@ -1,6 +1,9 @@
 ---
-title: "Weekend Reading for July 6th, 2013"
+title: "Your Weekend Reading for July 6th, 2013"
 description: "This is some of the most insightful content we've come across recently."
+social_type: "article"
+social_title: "Your Weekend Reading for July 6th, 2013"
+social_description: "This is some of the most insightful stuff we've been reading recently about iBooks, medicine, marketing, and life in general."
 page_intro: "Knowledge is power. <span class=\"sub\">Taking Multi-Touch textbooks to the next level.</span>"
 page_id: blog-post
 author_name: "Kris Walker"
