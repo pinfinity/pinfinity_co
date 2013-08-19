@@ -1,0 +1,55 @@
+<div id="team-member" class="row page">
+	{{ theme:partial src='page-header' }}
+	<div id="content">
+		<div class="team">
+			<div class="media-box">
+				<p class="img">
+					<img src="{{ profile_image }}" alt="{{ full_name }}: {{ job_title }}" />
+				</p>
+				<div class="text">
+					<h3 class="header light">{{ full_name }} <small>{{ job_title }}</small></h3>
+					<div class="bio">
+					{{ content }}
+					</div>
+					<div class="links">
+						{{ if linkedin_url }}
+						<p class="link">
+							<a class="button track-link-conversion"
+								href="{{ linkedin_url }}"
+								data-convert-name="about-us {{ full_name }}">
+								<img src="{{ theme:img src='icons/linkedin.png' }}" width="18px" height="18px" />
+								&nbsp;&nbsp;{{ first_name }} on LinkedIn</a>
+						</p>
+						{{ endif }}
+						{{ if twitter_url }}
+						<p class="link">
+							<a class="button track-link-conversion"
+								href="{{ twitter_url }}"
+								data-convert-name="about-us {{ full_name }}">
+								<img src="{{ theme:img src='icons/twitter.png' }}" width="18px" height="18px" />
+								&nbsp;&nbsp;{{ first_name }} on Twitter</a>
+						</p>
+						{{ endif }}
+						{{ if google_url }}
+						<p class="link">
+							<a class="button track-link-conversion"
+								href="{{ google_url }}"
+								data-convert-name="about-us {{ full_name }}">
+								<img src="{{ theme:img src='icons/google-plus.png' }}" width="18px" height="18px" />
+								&nbsp;&nbsp;{{ first_name }} on Google +</a>
+						</p>
+						{{ endif }}
+						{{ if personal_website }}
+						<p class="link">
+							<a class="track-link-conversion"
+								href="{{ personal_website }}"
+								data-convert-name="about-us {{ full_name }}">
+								&raquo;&nbsp;&nbsp;{{ full_name }}'s personal website</a>
+						</p>
+						{{ endif }}
+					</div><!-- .links -->
+				</div><!-- .text -->
+			</div><!-- .media-box -->
+		</div><!-- .team -->
+	</div><!-- #content -->
+</div>
