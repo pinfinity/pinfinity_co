@@ -610,26 +610,53 @@ li.nav-item {
 
 /* About Us
  */
+#about-us .section-header {
+  font-size: 2.4em;
+}
 #about-us ul.team {
   padding: 0;
   margin: 0;
   list-style-type: none;
+  overflow: hidden;
+  width: 104%;
+  margin-left: -4%;
 }
-#about-us .team .media-box {
-  margin-bottom: 2em;
+#about-us ul.team .media-box {
+  text-align: center;
+  width: 22%;
+  height: 19em;
+  float: left;
+  margin-left: 3%;
 }
-#about-us .team .media-box>.img,
+#about-us ul.team .media-box a {
+  display: block;
+  padding: 1em;
+}
+#about-us ul.team .media-box a:hover {
+  background: #ddd;
+}
+#about-us ul.team .media-box .img {
+  float: none;
+  margin: 0 0 24px;
+}
+#about-us ul.team .media-box a .name.header {
+  margin: 0;
+  font-size: 1.1em;
+}
+#about-us ul.team .media-box a .sub-header {
+  margin: 0;
+  font-size: .9em;
+  color: #777;
+}
 #team-member .team .media-box>.img {
   margin-top: 2em;
 }
 #team-member #content {
   margin-top: 4em;
 }
-#about-us .team .media-box>.text,
 #team-member .team .media-box>.text {
   margin-left: 200px;
 }
-#about-us .team .media-box>.text>.header,
 #team-member .team .media-box>.text>.header {
   font-size: 2em;
   font-size: 2em;

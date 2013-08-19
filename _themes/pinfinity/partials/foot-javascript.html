@@ -42,6 +42,11 @@ $(function ($) {
 		resizeVideos();
 	}());
 
+	$('[data-action="back-button"]').on('click', function (ev) {
+		ev.preventDefault();
+		window.history.go(-1);
+	});
+
 	// Start checkpoint tracking.
 	(function () {
 		var checks = [4000, 12000, 30000, 60000, 120000, 180000]
