@@ -615,11 +615,10 @@ li.nav-item {
 }
 #about-us ul.team {
   padding: 0;
-  margin: 0;
+  margin: 0 0 0 -4%;
   list-style-type: none;
   overflow: hidden;
   width: 104%;
-  margin-left: -4%;
 }
 #about-us ul.team .media-box {
   text-align: center;
@@ -910,6 +909,9 @@ li.nav-item {
   #home .row.product .video-box {
     padding-top: 2em;
   }
+  #about-us ul.team .media-box {
+    width: 30%;
+  }
   #books .products .book .img>img {
     width: 250px;
   }
@@ -972,11 +974,14 @@ li.nav-item {
     font-size: 1.6em;
     line-height: 1.3;
   }
-  #about-us .media-box>.img {
+  #about-us ul.team .media-box {
+    width: 47%;
+  }
+  #team-member .media-box>.img {
     margin: 0 1em 1em 0;
     width: 100px;
   }
-  #about-us .team .media-box>.text {
+  #team-member .team .media-box>.text {
     margin-left: 0;
   }
   #books .products .col-a {
