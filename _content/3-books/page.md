@@ -11,24 +11,40 @@ _template: page
 ---
 
 <div class="products">
-<div class="col-a">
-	<div class="book"><a href="./the_gallbladder_ibook" data-convert-name="book Gallbladder">
-		<p class="img">
-			<img src="/assets/img/gallbladder-ibook-cover.jpg" alt="The Gallbladder iBook cover." />
-		</p>
-		<p class="button">
-			Learn more
-		</p>
-	</a></div>
+
+<div class="row">
+	<div class="col-a">
+		<div class="book"><a href="./esophagus_absite_ibook" data-convert-name="book Esophagus ABSITE">
+			<p class="img">
+				<img src="/assets/img/esophagus-absite-cover.jpg" alt="Esophagus ABSITE iBook cover." />
+			</p>
+			<p class="button">
+				Learn more
+			</p>
+		</a></div>
+	</div>
 </div>
-<div class="col-b">
-	<div class="book"><a href="./the_appendix_ibook" data-convert-name="book Appendix">
-		<p class="img">
-			<img src="/assets/img/appendix-ibook-cover.jpg" alt="The Appendix iBook cover." />
-		</p>
-		<p class="button">
-			Learn more
-		</p>
-	</a></div>
+<div class="row">
+	<div class="col-a">
+		<div class="book"><a href="./the_gallbladder_ibook" data-convert-name="book Gallbladder">
+			<p class="img">
+				<img src="/assets/img/gallbladder-ibook-cover.jpg" alt="The Gallbladder iBook cover." />
+			</p>
+			<p class="button">
+				Learn more
+			</p>
+		</a></div>
+	</div>
+	<div class="col-b">
+		<div class="book"><a href="./the_appendix_ibook" data-convert-name="book Appendix">
+			<p class="img">
+				<img src="/assets/img/appendix-ibook-cover.jpg" alt="The Appendix iBook cover." />
+			</p>
+			<p class="button">
+				Learn more
+			</p>
+		</a></div>
+	</div>
 </div>
+
 </div>
