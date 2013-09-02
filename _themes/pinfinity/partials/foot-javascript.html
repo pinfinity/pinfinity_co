@@ -106,6 +106,46 @@ $(function ($) {
 			var data = JSON.stringify({method: action});
 			$iframe[0].contentWindow.postMessage(data, '*');
 		}
-	 }());
+	}());
+
+
+	(function () {
+		var $form = null;
+
+		function handleSubscription(ev) {
+			ev.preventDefault();
+
+			// Set the shared $form container.
+			$form = $(this);
+
+			var $email = $form.find('[name="email"]');
+			
+			if (!$email.val()) {
+				alert('Ooops. Looks like you forgot to enter you email address.');
+				return false;
+			}
+
+			var data = $form.serialize();
+
+			jQuery.post('/subscriptions/', data)
+				.then(onSuccess, onFailure);
+			return false;
+		}
+
+		function onSuccess(data, textStatus, xhr) {
+			var html = '<h3 class="head light">Thank you!</h3>';
+			html += '<p>We really appreciate your interest, and will be sure to take good care of your email address.</p>';
+
+			$form.html(html);
+		}
+
+		function onFailure(xhr, textStatus, err) {
+			APP.log("Subscription request failed:");
+			APP.log("textStatus:", textStatus);
+			alert("Ooops. Sorry -- there was a problem subscribing to our list.");
+		}
+
+		$('#subscriptions-form').on('submit', handleSubscription);
+	}());
 });
 </script>

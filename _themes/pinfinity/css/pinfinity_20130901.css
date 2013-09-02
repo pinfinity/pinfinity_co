@@ -20,7 +20,7 @@ body {
   font-family: 'Lucida Grande', 'Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;;
   font-size: 1em;
   font-weight: 200;
-  line-height: 1.4;
+  line-height: 1.5;
 }
 
 /* Elements
@@ -65,11 +65,6 @@ figcaption {
   font-style: italic;
   font-size: 0.7em;
   font-weight: 300;
-}
-.form label,
-.form .form-actions {
-  display: block;
-  margin-top: 1.2em;
 }
 
 /* Helpers
@@ -136,8 +131,8 @@ input[type="tel"],
 input[type="color"],
 .uneditable-input {
   display: inline-block;
-  height: 1.5em;
-  padding: .3em .5em;
+  height: 2em;
+  padding: .5em .7em;
   margin-top: 0.3em;
   margin-bottom: 0.5em;
   font-size: 1em;
@@ -200,6 +195,16 @@ input[type="file"] {
   height: 2em; /* In IE7, the height of the select element cannot be changed by height, only font-size */
   *margin-top: 4px; /* For IE7, add top margin to align select with labels */
   line-height: 2em;
+}
+.form label,
+.form .form-actions {
+  display: block;
+  margin-top: 1.2em;
+}
+.form label {
+  font-size: 0.9em;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 /* Components
@@ -740,6 +745,20 @@ li.nav-item {
 #book #content .boxb {
   margin-left: 6%;
 }
+#book .email-signup {
+  background-color: #efefef;
+  border: 1px solid #ccc;
+}
+#book .email-signup>.inner {
+  margin: 1em;
+}
+#book .email-signup .head {
+  margin-bottom: 0;
+}
+#book .email-signup input {
+  background-color: #fff;
+}
+#book .email-signup .head,
 #book .book-description .head {
   font-size: 2em;
 }
