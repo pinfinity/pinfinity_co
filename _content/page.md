@@ -89,7 +89,7 @@ _template: home
 </div><!-- .row.product -->
 
 <div class="row partners">
-	<h2 class="header light">Results Driven</h2>
+	<h2 class="header light">Partnerships</h2>
 	<div class="container">
 	<div class="partner">
 		<div class="boxa">
@@ -101,13 +101,31 @@ _template: home
 					alt="Medclerkships logo."/>
 				</a>
 			</p>
-			<p class="content">
-			We're proud to be working with
-			<a href="http://medclerkships.com/"
-				class="partner-link track-link-conversion"
-				data-convert-name="medclerkships">MedClerkships</a>
-			to give medical students new opportunities to forge a path
-			into a career in medicine.
+		</div>
+	</div>
+	<div class="partner">
+		<div class="boxb">
+			<p class="logo">
+				<a href="http://medtube.net/"
+					class="partner-link track-link-conversion"
+					data-convert-name="medtube">
+				<img src="/assets/img/medtube-logo.png"
+					alt="Medtube logo."/>
+				</a>
+			</p>
+		</div>
+	</div>
+	</div>
+	<div class="container">
+	<div class="partner">
+		<div class="boxa">
+			<p class="logo">
+				<a href="http://www.journalyoungmed.com/"
+					class="partner-link track-link-conversion"
+					data-convert-name="JYMR">
+				<img src="/assets/img/journal-young-medical-researchers-logo.png"
+					alt="Journal of Young Medical Researchers logo."/>
+				</a>
 			</p>
 		</div>
 	</div>
@@ -120,14 +138,6 @@ _template: home
 				<img src="/assets/img/encision-logo.png"
 					alt="Encision devices optimize technique and patient safety."/>
 				</a>
-			</p>
-			<p class="content">
-			We're working with
-			<a href="http://www.encision.com/"
-				class="partner-link track-link-conversion"
-				data-convert-name="encision">Encision</a>
-			to give surgeons the information they need to optimize surgical technique
-			and patient safety.
 			</p>
 		</div>
 	</div>
