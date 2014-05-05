@@ -4,7 +4,7 @@ description: "Carlos Guzman is the Managing Editor for the USMLE Step 1 iBook Se
 social_type: website
 social_title: "Carlos Guzman"
 social_description: "Carlos Guzman is the Managing Editor for the USMLE Step 1 iBook Series at Pinfinity Books. Producing quality multi-touch interactive textbooks takes a lot of work. But work isn't really work when you have a great team, and that's how we roll."
-media_image: "/assets/img/pinfinity-social-300.png" 
+media_image: "/assets/img/pinfinity-social-300.png"
 page_intro: "Work isn't really work when you have a great team.<br /><span class='sub'>And that's how we roll.</span>"
 _template: team_member
 full_name: "Carlos Guzman"

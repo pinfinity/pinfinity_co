@@ -4,7 +4,7 @@ description: "Work isn't really work when you have a great team, and that's how 
 social_type: website
 social_title: "Introducing the Pinfinity Publishing Team"
 social_description: "Producing quality multi-touch interactive textbooks takes a lot of work. But work isn't really work when you have a great team, and that's how we roll."
-media_image: "/assets/img/pinfinity-social-300.png" 
+media_image: "/assets/img/pinfinity-social-300.png"
 page_intro: "Work isn't really work when you have a great team.<br /><span class='sub'>And that's how we roll.</span>"
 page_id: "about-us"
 _template: page
@@ -35,6 +35,19 @@ _template: page
 		<div class="text">
 			<h3 class="name header light">Carlos Guzman</h3>
 			<h4 class="header sub-header">Managing Editor<br>USMLE Step 1</h4>
+		</div>
+	</a>
+	</li>
+	<li class="media-box">
+	<a class="track-link-conversion"
+		href="/about/hashem_barakat"
+		data-convert-name="about-us Hashem Barakat">
+		<p class="img">
+			<img src="/assets/img/hashem-barakat.png" alt="mugshot" />
+		</p>
+		<div class="text">
+			<h3 class="name header light">Hashem Barakat</h3>
+			<h4 class="header sub-header">Contributing Author<br>USMLE Step 1</h4>
 		</div>
 	</a>
 	</li>
