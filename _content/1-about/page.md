@@ -47,7 +47,7 @@ _template: page
 		</p>
 		<div class="text">
 			<h3 class="name header light">Hashem Barakat</h3>
-			<h4 class="header sub-header">Contributing Author<br>USMLE Step 1</h4>
+			<h4 class="header sub-header">Contributing Author<br>Varicose Vein iBook</h4>
 		</div>
 	</a>
 	</li>
